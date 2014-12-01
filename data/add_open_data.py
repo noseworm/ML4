@@ -139,7 +139,7 @@ def output_final_csv():
 			
 			value = house[i].strip()
 			if i == 11:
-				value = str(encode_type(value))
+				value = encode_type(value)
 			elif value == '':
 				value = '0'
 				#if i == 7:
@@ -154,30 +154,31 @@ def output_final_csv():
 		
 	in_file.close()
 	out_file.close()
-	
+
+#hijacking this...
 def encode_type(value):
 	#ENCODE PROPERTY TYPE
 	t = value.lower()
-	ret = 0
+	ret = "0,0,0,0,0,0,0,0,0"
 	if 'maison' in t or 'house' in t or 'jumel\xc3\xa9' in t or 'immeuble \xc3\xa0 revenu/logement' in t or 'terrain r\xc3\xa9sidentiel' in t or 'bi-g\xc3\xa9n\xc3\xa9ration' in t or 'mi-\xc3\xa9tages avant et arri\xc3\xa8re' in t:
 		# HOUSE
-		ret = 1
+		ret = "1,0,0,0,0,0,0,0,0"
 	elif 'commercial' in t or 'commerce' in t or 'bureau' in t or 'place d\'affaires' in t or 'industriel' in t:
-		ret = 2
+		ret = "0,1,0,0,0,0,0,0,0"
 	elif 'plex' in t or 'unit' in t:
-		ret = 3
+		ret = "0,0,1,0,0,0,0,0,0"
 	elif 'bungalow' in t:
-		ret = 4
+		ret = "0,0,0,1,0,0,0,0,0"
 	elif 'chalet' in t:
-		ret = 5
+		ret = "0,0,0,0,1,0,0,0,0"
 	elif 'loft' in t:
-		ret = 6
+		ret = "0,0,0,0,0,1,0,0,0"
 	elif 'hotel' in t:
-		ret = 7
+		ret = "0,0,0,0,0,0,1,0,0"
 	elif 'restauration' in t:
-		ret = 8
+		ret = "0,0,0,0,0,0,0,1,0"
 	elif 'condo' in t:
-		ret = 9
+		ret = "0,0,0,0,0,0,0,0,1"
 	return ret
 	
 def add_column_json(full_data_csv_name, new_json_name, feature_name):  
