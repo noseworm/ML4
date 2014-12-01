@@ -77,3 +77,11 @@ def finalTest(regressor, test_X, test_Y):
 	mse = getMeanError(pred_Y, test_Y)
 	return mse
 
+def graphData(graphname, X, Y, X_label, Y_label):
+	fig = plt.figure()
+	ax = fig.add_subplot(1,1,1)
+	v, = ax.plot(X, Y, marker='D', color='blue')
+	ax.set_xlabel(X_label)
+	ax.set_ylabel(Y_label)
+	plt.savefig('graphs/' + str(graphname) + '.pdf')
+	print "graph of " + str(graphname) + " saved at graphs/" + str(graphname) + ".pdf"
