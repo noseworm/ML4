@@ -5,8 +5,8 @@ import json
 from sets import Set
 
 distance_cutoff=0.095 # 3 kilometers in terms of Euclidean distance from GPS coordinates.
-main_lat_col=10
-main_long_col=4
+main_lat_col=11
+main_long_col=5
 
 def get_lat_long(array, lat_index, long_index):
 	try:
@@ -93,6 +93,8 @@ def add_column_csv(full_data_csv_name, new_csv_name, feature_name, lat_col, long
 		if len(values[main_lat_col]) < 2:
 			wrong_count += 1
 			continue
+		print values[main_lat_col]
+		print values[main_long_col]
 		house_lat = float(values[main_lat_col])
 		house_long = float(values[main_long_col])
 		new_feature_csv = open(new_csv_name, 'r')
@@ -118,19 +120,22 @@ def add_column_csv(full_data_csv_name, new_csv_name, feature_name, lat_col, long
 	os.rename('temp.csv', full_data_csv_name)
 
 def output_final_csv():
-	features = ['num_bed', 'year_built', 'longitude', 'latitude', 'num_room', 'num_bath', 'living_area', 'house', 'commercial', 'plex', 'bungalow','chalet' , 'loft', 'hotel', 'restauration', 'condo', 'num_parking', 'accessible_buildings', 'family_quality', 'art_expos', 'emergency_shelters', 'emergency_water', 'Facilities', 'fire_stations', 'Cultural', 'Monuments', 'police_stations', 'Vacant', 'Free_Parking', 'askprice']
-	feature_columns = []
-	in_file = open('data/final_data_fixed-clean.csv','r')
-	out_file = open('data/final_data.csv', 'w')
+	features = ['sold_date','num_bed', 'year_built', 'longitude', 'latitude', 'num_room', 'num_bath', 'living_area', 'property_type', 'num_parking', 'accessible_buildings', 'family_quality', 'art_expos', 'emergency_shelters', 'emergency_water', 'Facilities', 'fire_stations', 'Cultural', 'Monuments', 'police_stations', 'Vacant', 'Free_Parking', 'askprice']
+	features_header = ['not_sold','2014','2013','2012','2011','2010','2009','2008','2007','2006','2005','2004','2003','2002','num_bed', 'year_built', 'longitude', 'latitude', 'num_room', 'num_bath', 'living_area', 'house', 'commercial', 'plex', 'bungalow','chalet' , 'loft', 'hotel', 'restauration', 'condo', 'num_parking', 'accessible_buildings', 'family_quality', 'art_expos', 'emergency_shelters', 'emergency_water', 'Facilities', 'fire_stations', 'Cultural', 'Monuments', 'police_stations', 'Vacant', 'Free_Parking', 'askprice']
+	feature_columns = [0]
+	in_file = open('data/final_data_fixed-cleanDec.csv','r')
+	out_file = open('data/final_dataDec.csv', 'w')
 	
 	header = in_file.readline().split('|')
-	out_file.write(','.join(features) + '\n')
+	print header
+	out_file.write(','.join(features_header) + '\n')
 	for f in features:
 		for i in xrange(0, len(header)):
 			if header[i].strip() == f:
 				feature_columns.append(i)
 				break
 	types = Set()
+	print feature_columns
 	for entry in in_file.readlines():
 		house = entry.split('|')
 		out = []
@@ -138,7 +143,7 @@ def output_final_csv():
 		for i in feature_columns:
 			
 			value = house[i].strip()
-			if i == 11:
+			if i == 12:
 				value = encode_type(value)
 			elif value == '':
 				value = '0'
@@ -146,9 +151,40 @@ def output_final_csv():
 				#	add = False
 			elif ',' in value:
 				value = str(int(value.split(',')[0]) + int(value.split(',')[1]))
-			if math.isnan(float(value)):
-				print value
+			if i == 0:
+				if(value == '0'):
+					value = '1,0,0,0,0,0,0,0,0,0,0,0,0,0'
+				if('2014' in value):
+					value = '0,1,0,0,0,0,0,0,0,0,0,0,0,0'
+				if('2013' in value):
+					value = '0,0,1,0,0,0,0,0,0,0,0,0,0,0'
+				if('2012' in value):
+					value = '0,0,0,1,0,0,0,0,0,0,0,0,0,0'
+				if('2011' in value):
+					value = '0,0,0,0,1,0,0,0,0,0,0,0,0,0'
+				if('2010' in value):
+					value = '0,0,0,0,0,1,0,0,0,0,0,0,0,0'
+				if('2009' in value):
+					value = '0,0,0,0,0,0,1,0,0,0,0,0,0,0'
+				if('2008' in value):
+					value = '0,0,0,0,0,0,0,1,0,0,0,0,0,0'
+				if('2007' in value):
+					value = '0,0,0,0,0,0,0,0,1,0,0,0,0,0'
+				if('2006' in value):
+					value = '0,0,0,0,0,0,0,0,0,1,0,0,0,0'
+				if('2005' in value):
+					value = '0,0,0,0,0,0,0,0,0,0,1,0,0,0'
+				if('2004' in value):
+					value = '0,0,0,0,0,0,0,0,0,0,0,1,0,0'
+				if('2003' in value):
+					value = '0,0,0,0,0,0,0,0,0,0,0,0,1,0'
+				if('2002' in value):
+					value = '0,0,0,0,0,0,0,0,0,0,0,0,0,1'
+			#if math.isnan(float(value)):
+				#print value
 			out.append(value)
+		out[-1] = out[-1].replace(".00", "")
+		print len(out)
 		if (int(out[-1]) < 1000000 and int(out[-1]) != 0) and add == True:
 			out_file.write(','.join(out) + '\n')
 		
@@ -225,7 +261,7 @@ def add_column_json(full_data_csv_name, new_json_name, feature_name):
 	os.rename('temp.csv', full_data_csv_name)
 	
 if __name__=='__main__':
-	main_csv = 'data/final_data_fixed-clean.csv'
+	main_csv = 'data/final_data_fixed-cleanDec.csv'
 	# Accessibility data. CSV: Lat=8,Long=7
 	add_column_csv(main_csv, 'acces-bat.csv', 'accessible_buildings', 8, 7)
 	# Family Quality Buildings. KML

@@ -5,7 +5,12 @@ import urllib2
 import urllib
 
 def loadData(filename):
-	data = np.genfromtxt(filename, delimiter='|', dtype=None, loose=True, invalid_raise=False)
+	data = []
+	with open(filename, 'rb') as f:
+		reader = csv.reader(f)
+		for row in reader:
+        		data.append(row)
+	#data = np.genfromtxt(filename, delimiter=',', dtype=None, loose=True, invalid_raise=False)
 	return data
 
 def saveData(data, filename):
@@ -29,20 +34,16 @@ def getCoordinates(address):
 	else:
 		return ("","")
 
-data = loadData("final_data_fixed.csv")
-#final_data = []
-#for d in data:
-	#print len(final_data)
-	#if(d[4] == 0 or d[4] == ""):
-	#	(lat, lng) = getCoordinates(d[9])
-	#	d[4] = lng
-	#	d[10] = lat
-	#final_data.append(d.tolist())
-m = []
+data = loadData("Dec1Data.csv")
+print len(data)
+final_data = []
 for d in data:
-	if(d[0] != ""):
-		m.append(d)
-		print len(m)
+	print len(final_data)
+	if(d[5] == 0 or d[5] == ""):
+		(lat, lng) = getCoordinates(d[10])
+		d[5] = lng
+		d[11] = lat
+	final_data.append(d)
 	
-saveData(m, "final_data_fixed-clean.csv")
+saveData(final_data, "final_data_fixed-cleanDec.csv")
 		
