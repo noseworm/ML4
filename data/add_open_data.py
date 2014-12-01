@@ -118,7 +118,7 @@ def add_column_csv(full_data_csv_name, new_csv_name, feature_name, lat_col, long
 	os.rename('temp.csv', full_data_csv_name)
 
 def output_final_csv():
-	features = ['num_bed', 'year_built', 'longitude', 'latitude', 'num_room', 'num_bath', 'living_area', 'property_type', 'num_parking', 'accessible_buildings', 'family_quality', 'art_expos', 'emergency_shelters', 'emergency_water', 'Facilities', 'fire_stations', 'Cultural', 'Monuments', 'police_stations', 'Vacant', 'Free_Parking', 'askprice']
+	features = ['num_bed', 'year_built', 'longitude', 'latitude', 'num_room', 'num_bath', 'living_area', 'house', 'commercial', 'plex', 'bungalow','chalet' , 'loft', 'hotel', 'restauration', 'condo', 'num_parking', 'accessible_buildings', 'family_quality', 'art_expos', 'emergency_shelters', 'emergency_water', 'Facilities', 'fire_stations', 'Cultural', 'Monuments', 'police_stations', 'Vacant', 'Free_Parking', 'askprice']
 	feature_columns = []
 	in_file = open('data/final_data_fixed-clean.csv','r')
 	out_file = open('data/final_data.csv', 'w')
