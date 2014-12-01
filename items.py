@@ -22,3 +22,4 @@ class Property(scrapy.Item):
 	num_bath = scrapy.Field()
 	num_bed = scrapy.Field()
 	num_room = scrapy.Field()
+	sold_date = scrapy.Field()

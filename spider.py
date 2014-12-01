@@ -69,6 +69,8 @@ class DuPropSoldSpider(scrapy.Spider):
 			item["address"] = data.xpath('div[@class="hideinSearchresults"]/h5/strong/text()').extract()
 			item["city"] = data.xpath('div[@class="hideinSearchresults"]/h5/span[@class = "city"]/text()').extract()
 			#item["askprice"] = data.xpath('div[@class="hideinSearchresults"]/p/strong/text()').extract()
+			item["sold_date"] = data.xpath('div[@class="infoSold"]/p[contains(text(), "Vendu en")]/strong[contains(text(),"-")]/text()').extract()
+			#print item["sold_date"]
 			next_url = data.xpath('div[@class="hideinBookmarks"]/h4/a/@href').extract()[0]
 			next_url = "http://duproprio.com" + next_url
 			request = Request(next_url, callback=self.parse_next)
