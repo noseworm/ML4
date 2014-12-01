@@ -1,0 +1,1920 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <name>Bâtiments certifiés « qualité famille » </name>
+  <description><![CDATA[]]></description>
+		<Style id="bat_certifies_qual_famille">
+			<IconStyle>
+				<Icon><href>http://ville.montreal.qc.ca/pls/portal/docs/page/sect_famille_fr/media/images/ui_frm/map_icon_bat_cert_qual_fam.png</href></Icon>
+			</IconStyle>
+		</Style>
+  <Placemark>
+    <name>Aréna Marcellin-Wilson</name>
+    <description><![CDATA[11301, boulevard de l'Acadie, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=7957,87787591&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Ahuntsic-Cartierville</a><br>:: Table à langer]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.684418,45.535980,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bibliothèque Ahuntsic</name>
+    <description><![CDATA[10300, rue Lajeunesse, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=7957,87787591&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Ahuntsic-Cartierville</a><br>:: Fauteuil de boire et d'allaitement + chaise haute + table à langer]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.662697,45.553638,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bibliothèque Cartierville</name>
+    <description><![CDATA[5900, rue de Salaberry, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=7957,87787591&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Ahuntsic-Cartierville</a><br>:: Fauteuil de boire et d'allaitement + chaise haute + table à langer + stationnement famille]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.711945,45.528370,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bibliothèque Salaberry</name>
+    <description><![CDATA[4170, rue de Salaberry, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=7957,87787591&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Ahuntsic-Cartierville</a><br>:: Fauteuil de boire et d'allaitement + chaise haute]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.704193,45.534554,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Maison du monde</name>
+    <description><![CDATA[20, rue Chabanel Ouest, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=7957,87787591&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Ahuntsic-Cartierville</a><br>:: Fauteuil de boire et d'allaitement + support mural]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.651039,45.544376,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Chalet du parc Gabriel-Lalemant</name>
+    <description><![CDATA[2244, rue Sauvé Est, A<a href="http://ville.montreal.qc.ca/portal/page?_pageid=7957,87787591&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">huntsic-Cartierville</a><br>:: Table à langer]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.643944,45.570393,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Complexe Claude-Robillard</name>
+    <description><![CDATA[1000, rue Émile-Journault,<br><a href="http://ville.montreal.qc.ca/portal/page?_pageid=7957,87901866&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Ahuntsic-Cartierville</a><br>:: Halte famille + table à langer + fauteuil de boire et d'allaitement]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.638618,45.553261,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Piscine Sophie-Barat</name>
+    <description><![CDATA[10851 ave St-Charles,<br><a href="http://ville.montreal.qc.ca/portal/page?_pageid=7957,87889639&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Ahuntsic-Cartierville</a><br>:: Table à langer + vestitaire familial + stationnement]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.6672657,45.5600323,0.000000</coordinates>
+    </Point>
+  </Placemark>  
+  <Placemark>
+    <name>Pataugeoire Ahuntsic</name>
+    <description><![CDATA[10555 rue Lajeunesse,<br><a href="http://ville.montreal.qc.ca/portal/page?_pageid=7957,87889639&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Ahuntsic-Cartierville</a><br>:: Table à langer + vestitaire familial]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.6636458,45.5539052,0.000000</coordinates>
+    </Point>
+  </Placemark> 
+  <Placemark>
+    <name>Complexe aquatique Gabriel-Lalemant</name>
+    <description><![CDATA[2350 rue Sauvé,<br><a href="http://ville.montreal.qc.ca/portal/page?_pageid=7957,87889639&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Ahuntsic-Cartierville</a><br>:: Table à langer + vestitaire familial]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.6432359,45.5711668,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Complexe aquatique Marcelin-Wilson</name>
+    <description><![CDATA[1655 rue Dudemaine,<br><a href="http://ville.montreal.qc.ca/portal/page?_pageid=7957,87889639&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Ahuntsic-Cartierville</a><br>:: Table à langer + vestitaire familial ]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.688531,45.537673,0.000000</coordinates>
+    </Point>
+  </Placemark>    
+  <Placemark>
+    <name>Aréna Chaumont</name>
+    <description><![CDATA[8750, avenue Chaumont, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=6958,71613570&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Anjou</a><br>:: Table à langer]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.546806,45.610901,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Aréna Chénier</name>
+    <description><![CDATA[8200, avenue Chénier, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=6958,71613570&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Anjou</a><br>:: Table à langer]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.543716,45.603554,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bibliothèque du Haut-Anjou</name>
+    <description><![CDATA[<div dir="ltr">7070, rue Jarry Est, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=6958,71067578&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Anjou</a><br>:: Table à langer<br></div>]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.575928,45.601105,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bibliothèque Jean-Corbeil</name>
+    <description><![CDATA[<div dir="ltr">7500, av. Goncourt,<br><a href="http://ville.montreal.qc.ca/portal/page?_pageid=6958,71067578&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Anjou</a><br>:: Table à langer + fauteuil de boire et d'allaitement + chaise haute + paravent + tapis<br></div>]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.558983,45.603439,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bureau Accès - Anjou</name>
+    <description><![CDATA[7701, boul. Louis-H.-Lafontaine, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=6958,70919600&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Anjou</a><br>:: Table à langer]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.557747,45.601734,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Centre Roger-Rousseau</name>
+    <description><![CDATA[7501, avenue Rondeau, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=6958,70707572&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Anjou</a><br>:: Table à langer + siège/support mural]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.550407,45.615654,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Direction CSLDS - Anjou</name>
+    <description><![CDATA[7500, avenue Goncourt, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=6958,84222202&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Anjou</a><br>:: Table à langer]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.558983,45.603439,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Mairie Anjou</name>
+    <description><![CDATA[7701, boul. Louis-H. Lafontaine, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=6958,70919600&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Anjou</a><br>:: Table à langer]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.557800,45.601475,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Parc André-Laurendeau</name>
+    <description><![CDATA[8361, avenue André-Laurendeau, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=6958,70409628&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Anjou</a><br>:: Table à langer + siège/support mural + présentoir mural]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.571358,45.604397,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Parc Chénier / Piscine</name>
+    <description><![CDATA[5555, avenue de l'Aréna, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=6958,70409628&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Anjou</a><br>:: Table à langer + chaise haute]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.543983,45.602661,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Parc des Roseraies / Piscine</name>
+    <description><![CDATA[7070, avenue. de la Nantaise, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=6958,70409628&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Anjou</a><br>:: Table à langer + chaise haute + présentoir mural]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.556252,45.593517,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Parc du Bocage / Jeux d'eau et pataugeoire</name>
+    <description><![CDATA[6200, av. du Bocage, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=6958,70409628&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Anjou</a><br>:: Table à langer + siège mural + présentoir mural]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.551735,45.592861,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Lucie-Bruneau / Piscine</name>
+    <description><![CDATA[7051, avenue de l'Alsace, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=6958,70409628&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Anjou</a><br>:: Table à langer + chaise haute + présentoir mural]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.581245,45.605259,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Parc Peterborough et jeux d'eau</name>
+    <description><![CDATA[Piscine 21 juin - Période estivale / Chalet de parc - Selon horaire,<br/>8400, boul. Châteauneuf, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=6958,70409628&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Anjou</a><br>:: Table à langer + présetoir mural]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.556374,45.610909,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Parc Talcy / Jeux d'eau</name>
+    <description><![CDATA[Piscine 21 juin - Période estivale / Chalet de parc - Selon horaire,<br/>8151, avenue de Talcy, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=6958,70409628&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Anjou</a><br>:: Table à langer + présentoir mural]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.558372,45.609711,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Parc Verdelles / Piscine</name>
+    <description><![CDATA[Piscine 21 juin - Période estivale / Chalet de parc - Selon horaire, <br/>8441, Place Verdelles, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=6958,70409628&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Anjou</a><br>:: Table à langer + siège mural]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.549355,45.607868,0.000000</coordinates>
+    </Point>
+  </Placemark>
+    <Placemark>
+    <name>Piscine Roger-Rousseau</name>
+    <description><![CDATA[Piscine : Période estivale / Chalet de parc : Selon horaire,<br/> 7501, avenue Rondeau, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=6958,70409628&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Anjou</a><br>:: Table à langer + siège mural]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.549355,45.607868,0.000000</coordinates>
+    </Point>
+  </Placemark>
+    <Placemark>
+    <name>Piscine intérieure École secondaire d'Anjou</name>
+    <description><![CDATA[8205, avenue Fonteneau, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=6958,70409628&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Anjou</a><br>:: Table à langer + siège mural]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.53829,45.6026132,0.000000</coordinates>
+    </Point>
+  </Placemark>  
+    <Placemark>
+    <name>Centre communautaire d'Anjou</name>
+    <description><![CDATA[7800, boul. Métropolitain Est, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=6958,70409628&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Anjou</a><br>:: Table à langer + siège mural]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.564175,45.606488,0.000000</coordinates>
+    </Point>
+  </Placemark>  
+  <Placemark>
+    <name>Aréna Bill Durnan</name>
+    <description><![CDATA[4988, rue Vézina, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=7497,80845589&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Côte-des-Neiges-Notre-Dame-de-Grâce</a><br>:: Table à langer<br><a href="https://maps.google.com/maps/place?ftid=0x4cc919db969c892f:0x13e997b6ed27242d&amp;q=4988+Rue+V%C3%A9zina,+Montr%C3%A9al,+QC,+Canada&amp;hl=fr&amp;authuser=0&amp;cd=1&amp;cad=src:ppiwlink&amp;ei=l8xQUM6yEsigxAGFyICADA&amp;sig2=vymFPHrk60Sv2fjwmW129A&amp;dtab=5" target="_blank"><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=45.493929,-73.645992&amp;thumb=0"></a>]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.645988,45.493931,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Aréna Doug Harvey</name>
+    <description><![CDATA[4985, rue Westhill, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=7497,80845589&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Côte-des-Neiges-Notre-Dame-de-Grâce</a><br>:: Table à langer<br><a href="https://maps.google.com/maps/place?ftid=0x4cc91746247fd41f:0xb4e3167b143f03aa&amp;q=4985+Avenue+West+Hill,+Montr%C3%A9al,+QC,+Canada&amp;hl=fr&amp;authuser=0&amp;cd=1&amp;cad=src:ppiwlink&amp;ei=fsxQUL7LO6rRxAHT6IDIAg&amp;sig2=84Za99se96H7VGlFymnU0A&amp;dtab=5" target="_blank"><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=45.471127,-73.638352&amp;thumb=0"></a>]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.638351,45.471127,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bibliothèque Benny</name>
+    <description><![CDATA[3465, avenue Benny, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=7497,80845589&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Côte-des-Neiges-Notre-Dame-de-Grâce</a><br>:: Table à langer + table d'activités<br><a href="https://maps.google.com/maps/place?ftid=0x4cc917354e92b1a9:0x311d93e84f04a435&amp;q=3465+Avenue+Benny,+Montr%C3%A9al,+QC,+Canada&amp;hl=fr&amp;authuser=0&amp;cd=1&amp;cad=src:ppiwlink&amp;ei=38tQUNrnIcacxAG70IGABg&amp;sig2=doAtkVsdqGIKCH3vWT99XA&amp;dtab=5" target="_blank"><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=45.465310,-73.627682&amp;thumb=0"></a>]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.627686,45.465309,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bibliothèque et maison de la culture Côte-des-Neiges</name>
+    <description><![CDATA[5290, chemin de la Côte-des-Neiges, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=7497,80845589&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Côte-des-Neiges-Notre-Dame-de-Grâce</a><br>:: Table à langer + table d'activités]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.622139,45.496078,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bibliothèque Notre-Dame-de-Grâce</name>
+    <description><![CDATA[3755, rue Botrel, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=7497,80845589&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Côte-des-Neiges-Notre-Dame-de-Grâce</a><br>:: Table à langer + table d'activités <br><a href="https://maps.google.com/maps/place?ftid=0x4cc910ae7145b0b9:0xae0278472f9be22f&amp;q=3755+Rue+Botrel,+Montr%C3%A9al,+QC,+Canada&amp;hl=fr&amp;authuser=0&amp;cd=1&amp;cad=src:ppiwlink&amp;ei=xctQUNfSMMvpxQGN3oGgCQ&amp;sig2=xSaFJrscGEtjdhcsqhmVhg&amp;dtab=5" target="_blank"><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=45.475551,-73.614585&amp;thumb=0"></a>]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.614586,45.475552,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Centre Appleton</name>
+    <description><![CDATA[6585, chemin de la Côte-des-Neiges, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=7497,80845589&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Côte-des-Neiges-Notre-Dame-de-Grâce</a><br>:: Table à langer<br><a href="https://maps.google.com/maps/place?ftid=0x4cc919c1977da7ef:0xf6ff40e82e353c20&amp;q=6585+Chemin+de+la+C%C3%B4te-des-Neiges,+Montr%C3%A9al,+QC,+Canada&amp;hl=fr&amp;authuser=0&amp;cd=1&amp;cad=src:ppiwlink&amp;ei=ZsxQULasGobOxAGIpYBw&amp;sig2=AfwwqtGt_igZqlm04HqllQ&amp;dtab=5" target="_blank"><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=45.502383,-73.635610&amp;thumb=0"></a>]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.635612,45.502384,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Centre communautaire de loisir de la Côte-des-Neiges</name>
+    <description><![CDATA[5347, chemin de la Côte-des-Neiges, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=7497,80913570&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Côte-des-Neiges-Notre-Dame-de-Grâce</a><br>:: Table à langer + table et chaises + tapis]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.623055,45.496685,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Centre communautaire Notre-Dame-de-Grâce</name>
+    <description><![CDATA[Fermé pour rénovation, <br/>5311, chemin de la Côte-des-Neiges, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=7497,80845589&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Côte-des-Neiges-Notre-Dame-de-Grâce</a><br>:: Table à langer<br><a href="https://maps.google.com/maps/place?ftid=0x4cc910ae616643b1:0x99ecedf26a5a2b5c&amp;q=5311+Chemin+de+la+C%C3%B4te-Saint-Antoine,+Montr%C3%A9al,+QC,+Canada&amp;hl=fr&amp;authuser=0&amp;cd=1&amp;cad=src:ppiwlink&amp;ei=_ctQUIz7D4KzxAGk8YCwBg&amp;sig2=B_bnMnoZ9xJ0Wb3rms86lg&amp;dtab=5" target="_blank"><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=45.476272,-73.613277&amp;thumb=0"></a>]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.613274,45.476273,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Centre communautaire Saint-Raymond</name>
+    <description><![CDATA[5600, chemin Upper Lachine, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=7497,80913570&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Côte-des-Neiges-Notre-Dame-de-Grâce</a><br>:: Table à langer]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.609512,45.468971,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Centre communautaire Walkey</name>
+    <description><![CDATA[6650, Chemin de la Côte-des-Neiges, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=7497,80845589&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Côte-des-Neiges-Notre-Dame-de-Grâce</a><br>:: Table à langer <br><a href="https://maps.google.com/maps/place?ftid=0x4cc917406eb1c937:0xc4de8a011c909e6&amp;q=6650+Chemin+de+la+C%C3%B4te+Saint+Luc,+Montr%C3%A9al,+QC,+Canada&amp;hl=fr&amp;authuser=0&amp;cd=1&amp;cad=src:ppiwlink&amp;ei=TsxQUPHeHcHGxAGEw4G4DQ&amp;sig2=wVOXXmWQPcgabcaXnZU1aw&amp;dtab=5" target="_blank"><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=45.470000,-73.649616&amp;thumb=0"></a>]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.649612,45.470001,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Centre Le Manoir</name>
+    <description><![CDATA[5319, avenue Notre-Dame-de-Grâce, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=7497,80845589&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Côte-des-Neiges-Notre-Dame-de-Grâce</a><br>:: Table à langer <br><a href="https://maps.google.com/maps/place?ftid=0x4cc910ac36c56c7b:0x3c6cf7b2a034399f&amp;q=5319+Avenue+Notre+Dame+de+Gr%C3%A2ce,+Montr%C3%A9al,+QC,+Canada&amp;hl=fr&amp;authuser=0&amp;cd=1&amp;cad=src:ppiwlink&amp;ei=IsxQULneAcGexAH0jICYAg&amp;sig2=CZPM2zZTtY0xHTGm83asLw&amp;dtab=5" target="_blank"><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=45.477202,-73.615332&amp;thumb=0"></a>]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.615334,45.477203,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Centre sportif Côte-des-Neiges</name>
+    <description><![CDATA[4880, avenue Van-Horne, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=7497,80845589&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Côte-des-Neiges-Notre-Dame-de-Grâce</a><br>:: Table à langer + fauteuil de boire et d'allaitement + chaises hautes<br><a href="https://maps.google.com/maps/place?ftid=0x4cc919e75f046563:0x30bed7af763c7360&amp;q=4880+Avenue+Van+Horne,+Montr%C3%A9al,+QC,+Canada&amp;hl=fr&amp;authuser=0&amp;cd=1&amp;cad=src:ppiwlink&amp;ei=OsxQUNF1wqPFAb6egagO&amp;sig2=gCLGMZn81VsuSE7IlKhu8w&amp;dtab=5" target="_blank"><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=45.492981,-73.638088&amp;thumb=0"></a>]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.638084,45.492981,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Centre sportif Notre-Dame-de-Grâce</name>
+    <description><![CDATA[6445, avenue de Monkland, <a href="http://www.sogep.ca/mandats/centre-sportif-notre-dame-de-grace/" target="_blank">Côte-des-Neiges-Notre-Dame-de-Grâce</a><br>:: Chaise haute]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.630898,45.466702,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Centre sportif Notre-Dame-des-Neiges</name>
+    <description><![CDATA[5354, avenue Gatineau, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=7497,84237570&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Côte-des-Neiges-Notre-Dame-de-Grâce</a><br>:: Table à langer]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.621819,45.497173,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Chalet de la pataugeoire du parc Kent</name>
+    <description><![CDATA[Ouvert pendant la saison estivale, <br/>3533, avenue de Kent, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=7497,80953589&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Côte-des-Neiges-Notre-Dame-de-Grâce</a><br>:: Table à langer]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.632980,45.501423,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Chalet du parc Georges-St-Pierre</name>
+    <description><![CDATA[999, avenue d'Oxford, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=7497,80845589&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Côte-des-Neiges-Notre-Dame-de-Grâce</a><br>:: Table à langer<br><a href="https://maps.google.com/maps/place?ftid=0x4cc910bbd8f1dda1:0x28ca4a4b56c1e8c&amp;q=999+Avenue+d%27Oxford,+Montr%C3%A9al,+QC,+Canada&amp;hl=fr&amp;authuser=0&amp;cd=1&amp;cad=src:ppiwlink&amp;ei=6spQULTsHZCxxAG17oGoAw&amp;sig2=Y894dZc-bRMTM7RBy2ETjQ&amp;dtab=5" target="_blank"><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=45.468870,-73.609454&amp;thumb=0"></a>]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.609451,45.468868,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Chalet du parc Gilbert-Layton</name>
+    <description><![CDATA[6975, avenue de Chester, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=7497,80963584&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Côte-des-Neiges-Notre-Dame-de-Grâce</a><br>:: Table à langer]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.649223,45.466061,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Chalet du parc Loyola</name>
+    <description><![CDATA[5027, avenue Doherty, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=7497,80845589&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Côte-des-Neiges-Notre-Dame-de-Grâce</a><br>:: Table à langer<br><a href="https://maps.google.com/maps/place?ftid=0x4cc9173c82edee95:0xa1eebd5e5527367b&amp;q=5027+Avenue+Doherty,+Montr%C3%A9al,+QC,+Canada&amp;hl=fr&amp;authuser=0&amp;cd=1&amp;cad=src:ppiwlink&amp;ei=AstQUOTMNsHUxQHpiYGIDg&amp;sig2=8P4XbKCkb6XodGr0XCjenA&amp;dtab=5" target="_blank"><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=45.461234,-73.648622&amp;thumb=0"></a>]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.648621,45.461235,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Chalet du parc MacDonald</name>
+    <description><![CDATA[5355, avenue Clanranald, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=7497,80845589&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Côte-des-Neiges-Notre-Dame-de-Grâce</a><br>:: Table à langer<br><a href="https://maps.google.com/maps/place?ftid=0x4cc917593790a009:0x7831d58fce575aec&amp;q=5355+Avenue+Clanranald,+Montr%C3%A9al,+QC,+Canada&amp;hl=fr&amp;authuser=0&amp;cd=1&amp;cad=src:ppiwlink&amp;ei=zMpQUPjrGOyOxQG5kIHgBQ&amp;sig2=KgvlzRJG0xCEDXI2pX1O8A&amp;dtab=5" target="_blank"><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=45.483070,-73.635818&amp;thumb=0"></a>]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.635818,45.483070,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Chalet du parc Nelson-Mandela</name>
+    <description><![CDATA[Fermé pour rénovation, <br/>4920, rue Vézina, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=7497,80845589&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Côte-des-Neiges-Notre-Dame-de-Grâce</a><br>:: Table à langer<br><a href="https://maps.google.com/maps/place?ftid=0x4cc919db969c892f:0x13e997b6ed27242d&amp;q=4920+Rue+V%C3%A9zina,+Montr%C3%A9al,+QC,+Canada&amp;hl=fr&amp;authuser=0&amp;cd=1&amp;cad=src:ppiwlink&amp;ei=XM1QUKfcCKeExAHGw4H4Dw&amp;sig2=c9aKqVs5-q-q5UQWg2e76w&amp;dtab=5" target="_blank"><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=45.495178,-73.644870&amp;thumb=0"></a>]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.644867,45.495178,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Chalet du parc Somerled</name>
+    <description><![CDATA[4900, avenue de Hampton, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=7497,80845589&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Côte-des-Neiges-Notre-Dame-de-Grâce</a><br>:: Table à langer]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.634621,45.474461,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Chalet du parc Van-Horne</name>
+    <description><![CDATA[4900, avenue Van-Horne, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=7497,80845589&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Côte-des-Neiges-Notre-Dame-de-Grâce</a><br>:: Table à langer<br><a href="https://maps.google.com/maps/place?ftid=0x4cc919de08923d03:0xa36c2d36d30f5822&amp;q=4900+Avenue+Van+Horne,+Montr%C3%A9al,+QC,+Canada&amp;hl=fr&amp;authuser=0&amp;cd=1&amp;cad=src:ppiwlink&amp;ei=jspQUL_RIuTSxQHEs4CQCA&amp;sig2=BwsZuG-KBdzubHm-NUbfSQ&amp;dtab=5" target="_blank"><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=45.492617,-73.639126&amp;thumb=0"></a>]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.639130,45.492619,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Le 6767 : bibliothèque interculturelle et centre communautaire</name>
+    <description><![CDATA[6767, chemin de la Côte-des-Neiges, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=7497,80845589&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Côte-des-Neiges-Notre-Dame-de-Grâce</a><br>:: Table à langer + chaise haute]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.637047,45.503216,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Pavillon de la Savane (Mountain Sights) </name>
+    <description><![CDATA[5111, rue Paré, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=7497,80963584&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Côte-des-Neiges-Notre-Dame-de-Grâce</a><br>:: Table à langer]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.652931,45.498116,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Pavillon des baigneurs - parc de la Confédération</name>
+    <description><![CDATA[Ouvert pendant la saison estivale, <br/>6265, avenue Biermans, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=7497,80957618&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Côte-des-Neiges-Notre-Dame-de-Grâce</a><br>:: Table à langer + vestiaire familial]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.636703,45.471767,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Pavillon des baigneurs - parc Kent</name>
+    <description><![CDATA[Ouvert pendant la saison estivale, <br/>6262, chemin Hudson, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=7497,80957618&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Côte-des-Neiges-Notre-Dame-de-Grâce</a><br>:: Table à langer + vestiaire familial]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.629181,45.505867,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Chalet de parc Mackenzie-King</name>
+    <description><![CDATA[4905, avenue St-Kevin, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=7497,80957618&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Côte-des-Neiges-Notre-Dame-de-Grâce</a><br>:: Table à langer ]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.632442,45.489632,0.000000</coordinates>
+    </Point>
+  </Placemark>  
+  <Placemark>
+    <name>Aréna Martin-Lapointe</name>
+    <description><![CDATA[<span style="font-weight:bold">Fermé durant la saison estivale</span><br>183, rue des Érables, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=8117,92117576&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Lachine</a><br>:: Table à langer]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.651085,45.445770,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Aréna Pierre «Pete» Morin </name>
+    <description><![CDATA[<span style="font-weight:bold">Fermé durant la saison estivale</span><br>1925, rue Saint-Antoine, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=8117,92117576&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Lachine</a><br>:: Table à langer + fauteuil de boire et d'allaitement + chaise haute]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.681847,45.439388,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bibliothèque Saint-Pierre</name>
+    <description><![CDATA[183, rue des Érables, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=8117,89113588&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Lachine</a><br>:: Table à langer]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.651085,45.445770,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bibliothèque Saul-Bellow</name>
+    <description><![CDATA[<span style="font-weight:bold">Fermée jusqu'au printemps 2015</span><br>3100, rue Saint-Antoine, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=8117,89113602&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Lachine</a><br>:: Table à langer]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.691803,45.440079,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Centre Albert-Gariépy</name>
+    <description><![CDATA[800, rue Sherbrooke,<br><a href="http://ville.montreal.qc.ca/portal/page?_pageid=8117,89341600&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Lachine</a><br>:: Table à langer]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.670951,45.445304,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Maison du brasseur - L&#39;Entrepôt</name>
+    <description><![CDATA[2901, boul. Saint-Joseph, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=8117,89115662&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Lachine</a><br>:: Table à langer]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.689919,45.433540,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Musée de Lachine</name>
+    <description><![CDATA[1, Chemin du Musée,<br><a href="http://ville.montreal.qc.ca/portal/page?_pageid=3156,3579362&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Lachine</a><br>:: Table à langer]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.666000,45.429420,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bain Émard</name>
+    <description><![CDATA[6071, rue Laurendeau, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=7757,84749632&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Le Sud-Ouest</a><br>:: Table à langer]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.588631,45.457829,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bibliothèque Marie-Uguay</name>
+    <description><![CDATA[6052, boulevard Monk, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=7757,84693629&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Le Sud-Ouest</a><br>:: Table à langer]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.595551,45.457706,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bibliothèque St-Charles</name>
+    <description><![CDATA[2333, rue Mullins, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=7757,84701622&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Le Sud-Ouest</a><br>:: Table à langer]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.563744,45.479034,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bibliothèque St-Henri</name>
+    <description><![CDATA[4707, rue Notre-Dame Ouest, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=7757,84709607&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Le Sud-Ouest</a><br>:: Table à langer]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.589134,45.472504,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Centre Georges-Vanier</name>
+    <description><![CDATA[530, rue Vinet, <a href="http://www.ccgv.ca/" target="_blank">Le Sud-Ouest</a><br>:: Table à langer]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.575005,45.483589,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Centre sportif de la Petite-Bourgogne</name>
+    <description><![CDATA[1825, rue Notre-Dame Ouest, <a href="http://centresportifdelapetitebourgogne.com/" target="_blank">Le Sud-Ouest</a><br>:: Table à langer]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.568848,45.488178,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Centre St-Charles</name>
+    <description><![CDATA[<span style="font-weight:bold">Fermé entre août 2014 et avril 2015</span><br/>1055, rue d'Hibernia, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=7757,84741599&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Le Sud-Ouest</a><br>:: Table à langer]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.563385,45.479332,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Complexe récréatif Gadbois </name>
+    <description><![CDATA[5485, chemin de la Côte-Saint-Paul, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=7757,84739586&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Le Sud-Ouest</a><br>:: Table à langer + chaise haute]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.595558,45.466068,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Piscine extérieure Bourget</name>
+    <description><![CDATA[5925, avenue de Montmagny, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=7757,84749657&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Le Sud-Ouest</a><br>:: Table à langer + chaise haute]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.604424,45.457104,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Piscine extérieure Cartier</name>
+    <description><![CDATA[4550, rue Sainte-Émilie, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=7757,84749657&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Le Sud-Ouest</a><br>:: Table à langer + chaise haute]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.585220,45.472576,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Piscine St-Henri</name>
+    <description><![CDATA[<span style="font-weight:bold">Fermée pour la saison estivale</span><br/>4055, rue Saint-Jacques, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=7757,84749632&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Le Sud-Ouest</a><br>:: Table à langer]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.585716,45.477764,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bibliothèque de L&#39;Île-Bizard</name>
+    <description><![CDATA[500, Montée de l'Église, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=8497,95015723&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">L'Île-Bizard-Sainte-Geneviève</a><br>:: Table à langer + fauteuil de boire et d'allaitement + paravent + stationnement]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.882530,45.489487,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Centre socio-culturel</name>
+    <description><![CDATA[490, Montée de l'Église, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=8497,95015723&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">L'Île-Bizard-Sainte-Geneviève</a><br>:: Fauteuil de boire et d'allaitement + chaise haute + table à langer + banc d'appoint + paravent + stationnement]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.882362,45.489342,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Le Grenier St-Raphaël</name>
+    <description><![CDATA[571, chemin Cherrier, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=8497,95015723&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">L'Île-Bizard-Sainte-Geneviève</a><br>:: Table à langer + chaise haute + banc d'appoint]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.880798,45.485374,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Pavillon Vincent-Lecavalier</name>
+    <description><![CDATA[488, Montée de l'Église, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=8497,95015723&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">L'Île-Bizard-Sainte-Geneviève</a><br>:: Table à langer + fauteuil de boire et d'allaitement + chaise haute + banc d'appoint + paravent + stationnement]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.882332,45.489315,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Section piscine de L&#39;Île-Bizard</name>
+    <description><![CDATA[488, Montée de l'Église, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=8497,95015723&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">L'Île-Bizard-Sainte-Geneviève</a><br>:: Table à langer + sièges de bébé pour la douche-piscine + stationnement<br><a href="https://maps.google.com/maps/place?ftid=0x4cc93b01fb2fd563:0xf19ce04f534a47cf&amp;q=488+Mont%C3%A9e+de+l%27%C3%89glise,+L%27%C3%8Ele-Bizard,+QC,+Canada&amp;hl=fr&amp;authuser=0&amp;cd=1&amp;cad=src:ppiwlink&amp;ei=VXR9UJvUL-nvxQH9hIDoAw&amp;sig2=X_m2XZIr-hHbYuozNLKLNg&amp;dtab=5" target="_blank"><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=45.489314,-73.882331&amp;thumb=0"></a>]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.882332,45.489315,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Aréna Clément-Jetté</name>
+    <description><![CDATA[Ouverture prévue en novembre 2014,<br/>8780, avenue Dubuisson, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=95,241859&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Mercier-Hochelaga-Maisonneuve </a><br>:: Table à langer + fauteuil de boire et d'allaitement + chaise haute<br><a href="http://ville.montreal.qc.ca/portal/page?_pageid=95,241859&amp;_dad=portal&amp;_schema=PORTAL" target="_blank"></a>]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.516594,45.601803,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Aréna Saint-Donat</name>
+    <description><![CDATA[Fermée pendant la saison estivale,<br/> 6750, rue de Marseille, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=95,241859&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Mercier-Hochelaga-Maisonneuve</a><br>:: Fauteuil de boire et d'allaitement]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.538338,45.583057,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Biodôme de Montréal</name>
+    <description><![CDATA[<div dir="ltr">4777, ave. Pierre-De Coubertin, <a href="http://www.biodome.qc.ca/" target="_blank">Mercier-Hochelaga-Maisonneuve </a><br>:: Halte famille : Table à langer + fauteuil de boire et d'allaitement + chaise haute + siège mural + table et chaises + vestiaire familial + présentoir mural + tapis + paravent<br></div>]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.548218,45.559086,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bibliothèque Hochelaga</name>
+    <description><![CDATA[1870, rue Davidson, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=95,244948&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Mercier-Hochelaga-Maisonneuve</a><br>:: Table à langer + table et chaises + fauteuil de boire et d'allaitement]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.545433,45.542362,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bibliothèque Langelier</name>
+    <description><![CDATA[6473, rue Sherbrooke Est, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=95,244950&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Mercier-Hochelaga-Maisonneuve</a><br>:: Table à langer + fauteuil de boire et d'allaitement + chaise haute + table et chaises]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.544029,45.581758,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bibliothèque Maisonneuve</name>
+    <description><![CDATA[4120, rue Ontario Est, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=95,244936&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Mercier-Hochelaga-Maisonneuve</a><br>:: Table à langer + table et chaises]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.540688,45.550606,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Caserne 18-30</name>
+    <description><![CDATA[Ouvert seulement l'après-midi pendant la saison estivale,<br/>3622, rue Hochelaga, <a href="http://www.ccsemaisonneuve.qc.ca/index_caserne.htm" target="_blank">Mercier-Hochelaga-Maisonneuve</a><br>:: Table à langer]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.550957,45.547562,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Centre culturel et sportif de l&#39;Est (CCSE) Maisonneuve</name>
+    <description><![CDATA[4375, rue Ontario Est, <a href="http://ccsemaisonneuve.qc.ca/" target="_blank">Mercier-Hochelaga-Maisonneuve</a><br>:: Table à langer]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.539291,45.553322,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Centre Pierre-Charbonneau</name>
+    <description><![CDATA[3000, rue Viau, <a href="http://centrepierrecharbonneau.com/" target="_blank">Mercier-Hochelaga-Maisonneuve</a><br>:: Table à langer + fauteuil de boire et d'allaitement + chaise haute]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.550293,45.562382,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Jardin botanique</name>
+    <description><![CDATA[4101, rue Sherbrooke Est, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=7357,76027570&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Rosemont-La Petite-Patrie</a><br>:: Halte famille : Fauteuil de boire et d'allaitement + chaise haute + table et chaises + vestiaire familial  + tables d'activités]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.558107,45.558299,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Mairie d&#39;arrondissement de Mercier-Hochelaga-Maisonneuve</name>
+    <description><![CDATA[6854, rue Sherbrooke Est, <a href="http://ccsemaisonneuve.qc.ca/" target="_blank">Mercier-Hochelaga-Maisonneuve</a><br>:: Table à langer<br><a href="https://maps.google.com/maps/place?ftid=0x4cc91c323a2e7cf3:0xebf56d4218cf05a&amp;q=6854+Rue+Sherbrooke+Est,+Montr%C3%A9al,+QC,+Canada&amp;hl=fr&amp;authuser=0&amp;cd=1&amp;cad=src:ppiwlink&amp;ei=I-JQUJz2O4a4xAGvjIGADw&amp;sig2=KddpScnGEU2LxDvdk49eKQ&amp;dtab=5" target="_blank"><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=45.585122,-73.541430&amp;thumb=0"></a>]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.541428,45.585121,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Maison de la culture et bibliothèque Mercier</name>
+    <description><![CDATA[<div dir="ltr">8105, rue Hochelaga, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=95,243021&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Mercier-Hochelaga-Maisonneuve </a><br>:: Table à langer + fauteuil de boire et d'allaitement + chaise haute + table et chaises<br><a href="http://ville.montreal.qc.ca/portal/page?_pageid=95,243021&amp;_dad=portal&amp;_schema=PORTAL" target="_blank"></a></div>]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.523438,45.595634,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Maison de la culture Maisonneuve</name>
+    <description><![CDATA[4200, rue Ontario Est, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=95,244952&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Mercier-Hochelaga-Maisonneuve</a><br>:: Table à langer + fauteuil de boire et d'allaitement + chaise haute]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.540672,45.551128,0.000000</coordinates>
+    </Point>
+  </Placemark>
+    <Placemark>
+    <name>Naturalia du Biodôme de Montréal</name>
+    <description><![CDATA[4777, ave. Pierre-De-Coubertin, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=9417,112699637&_dad=portal&_schema=PORTAL" target="_blank">Mercier-Hochelaga-Maisonneuve </a><br>:: Halte famille complète]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.548363,45.559003,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Piscine Édouard-Montpetit</name>
+    <description><![CDATA[6100, avenue Pierre-de Coubertin, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=95,242966&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Mercier-Hochelaga-Maisonneuve</a><br>:: Table à langer + fauteuil de boire et d'allaitement ]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.537758,45.576351,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Piscine Hochelaga</name>
+    <description><![CDATA[1870, rue Davidson, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=95,242966&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Mercier-Hochelaga-Maisonneuve</a><br>:: Fauteuil de boire et d'allaitement]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.545517,45.542786,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Piscine Morgan</name>
+    <description><![CDATA[Fermée pendant la saison estivale,<br/>1875, avenue Morgan, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=95,242966&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Mercier-Hochelaga-Maisonneuve</a><br>:: Fauteuil de boire et d'allaitement]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.537979,45.553070,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Planétarium de Montréal</name>
+    <description><![CDATA[4801, avenue Pierre-de Coubertin, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=95,242966&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Mercier-Hochelaga-Maisonneuve</a><br>:: Halte famille : Table à langer + fauteuil de boire et d'allaitement<br><a href="https://maps.google.com/maps/place?ftid=0x4cc91c0d04c267b1:0x7a670f7ef8f8e3ce&amp;q=4777+Avenue+Pierre-de+Coubertin,+Montr%C3%A9al,+QC,+Canada&amp;hl=fr&amp;authuser=0&amp;cd=1&amp;cad=src:ppiwlink&amp;ei=gXh9UI_tNselxAGEwICIDQ&amp;sig2=w0CdvRc9hYxBbSP27lzgpA&amp;dtab=5" target="_blank"><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=45.559019,-73.548377&amp;thumb=0"></a>]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.548342,45.559362,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Aréna Francis Bouillon (lieu d'allaitement)</name>
+    <description><![CDATA[Fermée pendant la saison estivale,<br/>3175, rue de Rouen, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=95,241859&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Mercier-Hochelaga-Maisonneuve</a><br>:: Table à langer + fauteuil de boire et d'allaitement]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.551224,45.541360,0.000000</coordinates>
+    </Point>
+  </Placemark>  
+  <Placemark>
+    <name>Piscine Annie-Pelletier</name>
+    <description><![CDATA[Accessibilité universelle,<br/>8850 Avenue Dubuisson, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=95,242966&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Mercier-Hochelaga-Maisonneuve</a><br>:: Table à langer + fauteuil de boire et d'allaitement + vestiaire familial]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.516682,45.60221,0.000000</coordinates>
+    </Point>
+  </Placemark>    
+  <Placemark>
+    <name>Piscine Paul-Émile-Sauvageau</name>
+    <description><![CDATA[Accessibilité universelle,<br/>9200 rue Notre-dame-Est, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=95,242966&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Mercier-Hochelaga-Maisonneuve</a><br>:: Table à langer + fauteuil de boire et d'allaitement + vestiaire familial]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.512322,45.605833,0.000000</coordinates>
+    </Point>
+  </Placemark>    
+  <Placemark>
+    <name>Centre Hochelaga</name>
+    <description><![CDATA[Accessibilité universelle,<br/>8695, rue Hochelaga, Mercier-Hochelaga-Maisonneuve<br>:: Table à langer]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.520274,45.601307,0.000000</coordinates>
+    </Point>
+  </Placemark>    
+  <Placemark>
+    <name>Bibliothèque Charleroi</name>
+    <description><![CDATA[4740, rue de Charleroi,<br><a href="http://ville.montreal.qc.ca/portal/page?_pageid=2120,2653811&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Montréal-Nord</a><br>:: Table à langer + stationnement + présentoir mural + stationnement]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.631371,45.596554,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bibliothèque Henri-Bourassa</name>
+    <description><![CDATA[5400, boul. Henri-Bourassa Est, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=2120,2653811&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Montréal-Nord</a><br>:: Table à langer + stationnement + présentoir mural + stationnement]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.625290,45.604668,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Centre des loisirs</name>
+    <description><![CDATA[11121, avenue Salk, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=2120,2653923&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Montréal-Nord</a><br>:: Table à langer + table et chaises + stationnement + présentoir mural + stationnement]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.623131,45.601105,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Maison culturelle et communautaire de Montréal-Nord</name>
+    <description><![CDATA[12004, boul. Rolland, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=2120,2653786&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Montréal-Nord</a><br>:: Table à langer + fauteuil de boire et d'allaitement + chaise haute + banc d'appoint + table et chaises + stationnement + présentoir mural + stationnement]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.620888,45.616680,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bibliothèque Robert-Bourassa</name>
+    <description><![CDATA[41, ave. Saint-Just, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=8517,95394298&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Outremont</a><br>:: Table à langer + fauteuil de boire et d'allaitement + chaise haute + table et chaises + stationnement]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.608406,45.517780,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Centre communautaire intergénérationnel</name>
+    <description><![CDATA[999, avenue McEachran, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=8517,95459648&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Outremont</a><br>:: Table à langer + stationnement]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.619431,45.519684,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Parc Joyce</name>
+    <description><![CDATA[<a href="http://ville.montreal.qc.ca/portal/page?_pageid=8517,95447599&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Outremont</a><br>:: Table à langer]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.614532,45.514587,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Parc Outremont</name>
+    <description><![CDATA[Chalet du parc, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=8517,95447599&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Outremont</a><br>:: Table à langer]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.604774,45.518185,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Parc Saint-Viateur</name>
+    <description><![CDATA[<a href="http://ville.montreal.qc.ca/portal/page?_pageid=8517,95447599&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Outremont</a><br>:: Table à langer]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.606888,45.520439,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Théâtre Outremont</name>
+    <description><![CDATA[1248, rue Bernard Ouest, <a href="http://www.theatreoutremont.ca/" target="_blank">Outremont</a><br>:: Table à langer + bancs d'appoint]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.608582,45.519939,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bibliothèque et maison de la culture du Plateau Mont-Royal</name>
+    <description><![CDATA[465, avenue du Mont-Royal Est, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=7297,90167570&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Plateau Mont-Royal</a><br>:: Table à langer + table et chaises + fauteuil de boire et d'allaitement]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.582428,45.524563,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bibliothèque du Mile-End</name>
+    <description><![CDATA[5434, avenue du Parc, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=7297,90163574&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Plateau Mont-Royal</a><br>:: Table à langer + table et chaises]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.601601,45.521915,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Centre du Plateau</name>
+    <description><![CDATA[2275, boulevard Saint-Joseph Est, <a href="http://www.centreduplateau.qc.ca/activites-montreal/index.cfm" target="_blank">Plateau Mont-Royal</a><br>:: Table à langer]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.575188,45.539791,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Aréna René-Masson</name>
+    <description><![CDATA[9179, boulevard Perras, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=7697,84035591&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Rivière-des-Prairies-Pointe-aux-Trembles</a><br>:: Table à langer]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.576462,45.651676,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Aréna Rodrigue-Gilbert</name>
+    <description><![CDATA[<span style="font-weight:bold">Fermé pour rénovation</span><br>1515, boulevard du Tricentenaire, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=7697,84035591&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Rivière-des-Prairies-Pointe-aux-Trembles</a><br>:: Table à langer]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.500176,45.651186,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bibliothèque Rivière-des-Prairies</name>
+    <description><![CDATA[9001, boulevard Perras, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=7697,84003677&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Rivière-des-Prairies-Pointe-aux-Trembles</a><br>:: Table à langer + fauteuil de boire et d'allaitement + table et chaises + paravent]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.578148,45.650227,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Centre aquatique Rivière-des-Prairies</name>
+    <description><![CDATA[12515, boulevard Rodolphe-Forget, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=7697,84075584&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Rivière-des-Prairies-Pointe-aux-Trembles</a><br>:: Table à langer + chaise haute + support mural ]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.579117,45.651070,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Centre communautaire de Rivière-des-Prairies</name>
+    <description><![CDATA[9140, boulevard Perras, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=7697,83897570&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Rivière-des-Prairies-Pointe-aux-Trembles</a><br>:: Table à langer + chaise haute + support mural + tabouret]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.577438,45.650562,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Centre communautaire le Mainbourg</name>
+    <description><![CDATA[14115, rue Prince-Arthur, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=7697,83897570&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Rivière-des-Prairies-Pointe-aux-Trembles</a><br>:: Table à langer + fauteuil de boire et d'allaitement + chaise haute + table et chaises + tabouret + paravent]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.509308,45.671547,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Centre communautaire Roussin</name>
+    <description><![CDATA[12125, rue Notre-Dame Est, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=7697,83897570&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Rivière-des-Prairies-Pointe-aux-Trembles</a><br>:: Table à langer + chaise haute + tabouret]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.490013,45.641228,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Centre communautaire Ste-Maria-Goretti</name>
+    <description><![CDATA[15912, rue Notre-Dame Est, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=7697,83897570&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Rivière-des-Prairies-Pointe-aux-Trembles</a><br>:: Table à langer + fauteuil de boire et d'allaitement + chaise haute + tables et chaises + tabouret + paravent]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.487984,45.694260,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Chalet du parc Dollard-Morin</name>
+    <description><![CDATA[11750, rue de la Vallinière, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=7697,84113639&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Rivière-des-Prairies-Pointe-aux-Trembles</a><br>:: Table à langer]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.593185,45.627335,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Chalet du parc Pasquale-Gattuso</name>
+    <description><![CDATA[11770, rue Gilles-Trottier, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=7697,84113639&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Rivière-des-Prairies-Pointe-aux-Trembles</a><br>:: Table à langer]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.576370,45.637810,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Chalet du parc Pierre-Blanchet</name>
+    <description><![CDATA[12275, avenue Pierre-Blanchet, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=7697,84113639&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Rivière-des-Prairies-Pointe-aux-Trembles</a><br>:: Table à langer]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.604927,45.628330,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Chalet du parc Samuel-Morse</name>
+    <description><![CDATA[12100, avenue François-Larocque, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=7697,84113639&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Rivière-des-Prairies-Pointe-aux-Trembles</a><br>:: Table à langer]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.584679,45.639664,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Centre récréatif Rivière-des-Prairies</name>
+    <description><![CDATA[7650, boulevard Maurice-Duplessis, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=7697,84041633&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Rivière-des-Prairies-Pointe-aux-Trembles</a><br>:: Table à langer + chaise haute + fauteuil de boire et d'allaitement + tables et chaises]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.595222,45.627029,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bibliothèque Pointe-aux-Trembles</name>
+    <description><![CDATA[14001, rue Notre-Dame Est, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=7697,84003621&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Rivière-des-Prairies-Pointe-aux-Trembles</a><br>:: Table à langer + fauteuil de boire et d'allaitement + banc d'appoint + paravent]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.494553,45.668144,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Maison du Bon-Temps</name>
+    <description><![CDATA[8000, boulevard Gouin Est, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=7697,84019576&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Rivière-des-Prairies-Pointe-aux-Trembles</a><br>:: Table à langer + fauteuil de boire et d'allaitement + paravent ]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.599152,45.642403,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Centre Alphonse-Desjardins</name>
+    <description><![CDATA[6755, 36e avenue, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=7357,76027570&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Rosemont-La Petite-Patrie</a><br>:: Table à langer + fauteuil de boire et d'allaitement + table et chaises]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.576797,45.571781,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Centre Étienne-DesMarteau</name>
+    <description><![CDATA[3430, rue de Bellechasse, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=7357,76009613&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Rosemont-La Petite-Patrie</a><br>:: Table à langer + chaise haute + table et chaises]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.580307,45.555794,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Centre Gabriel et Marcel-Lapalme</name>
+    <description><![CDATA[5350, rue Lafond, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=7357,75905586&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Rosemont-La Petite Patrie</a><br>:: Table à langer + table et chaises]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.571526,45.552391,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bibliothèque Rosemont</name>
+    <description><![CDATA[3131, boulevard <a href="http://ville.montreal.qc.ca/portal/page?_pageid=7357,84227586&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Rosemont, Rosemont-La Petite-Patrie</a><br>:: Table à langer + fauteuil de boire et d'allaitement + table et chaises]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.582237,45.551838,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Centre sportif Père-Marquette</name>
+    <description><![CDATA[1600, rue de Drucourt, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=7357,76009613&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Rosemont-La Petite-Patrie</a><br>:: Table à langer + chaise haute + support mural + table et chaises]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.595703,45.541004,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Maison de la culture et bibliothèque La Petite-Patrie</name>
+    <description><![CDATA[6707, avenue de Lorimier, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=7357,75905586&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Rosemont-La Petite Patrie</a><br>:: Table à langer + table et chaises]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.598129,45.547424,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Marché Jean-Talon</name>
+    <description><![CDATA[7070, avenue Henri-Julien, <a href="http://www.marchespublics-mtl.com/Jean-Talon/" target="_blank">Rosemont-La Petite-Patrie</a><br>:: Halte famille + table à langer + fauteuil de boire et d'allaitement + table et chaises]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.615021,45.536903,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Pataugeoire Beaubien</name>
+    <description><![CDATA[6633, 6e avenue, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=7357,76041570&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Rosemont-La Petite-Patrie</a><br>:: Table à langer]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.591675,45.553432,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Patageoire Lafond</name>
+    <description><![CDATA[3500, avenue Laurier Est, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=7357,76041570&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Rosemont-La Petite-Patrie</a><br>:: Table à langer]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.568428,45.552578,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Piscine Père-Marquette</name>
+    <description><![CDATA[1600, rue de Drucourt, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=7357,76041570&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Rosemont-La Petite-Patrie</a><br>:: Table à langer]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.596493,45.540639,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Piscine Rosemont</name>
+    <description><![CDATA[6101, 8e avenue, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=7357,84227586&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Rosemont-La Petite-Patrie</a><br>:: Table à langer + support mural]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.583977,45.552074,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Piscine Saint-Denis</name>
+    <description><![CDATA[7075, rue Saint-Hubert, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=7357,84227586&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Rosemont-La Petite-Patrie</a><br>:: Table à langer + support mural]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.612015,45.540131,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Aréna Raymond-Bourque</name>
+    <description><![CDATA[2345, boulevard Thimens, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=7937,86793719&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Saint-Laurent</a><br>:: Table à langer]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.701920,45.505943,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bibliothèque du Vieux Saint-Laurent</name>
+    <description><![CDATA[1380, rue de l'Église, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=7937,86575570&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Saint-Laurent</a><br>:: Table à langer ]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.676689,45.512817,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Centre des loisirs de Saint-Laurent</name>
+    <description><![CDATA[1375 rue Grenet, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=7937,86617573&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Saint-Laurent</a><br>:: Table à langer + fauteuil de boire et d'allaitement + chaise haute]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.691406,45.514290,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Chalet du parc Chamberland</name>
+    <description><![CDATA[800, rue Dorais, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=7937,86833578&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Saint-Laurent</a><br>:: Table à langer]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.689850,45.503338,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Chalet du parc Noël-Nord</name>
+    <description><![CDATA[2900, rue Baker, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=7937,86833578&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Saint-Laurent</a><br>:: Table à langer]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.728951,45.517384,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Chalet du parc Painter</name>
+    <description><![CDATA[260, rue Marcotte, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=7937,86833578&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Saint-Laurent</a><br>:: Table à langer]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.677452,45.528767,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Mairie d&#39;arrondissement de Saint-Laurent</name>
+    <description><![CDATA[777, boul. Marcel-Laurin, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=7937,87221623&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Saint-Laurent</a><br>:: Table à langer + fauteuil de boire et d'allaitement + chaise haute]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.683617,45.507038,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  
+  <Placemark>
+    <name>Centre Hautbois</name>
+    <description><![CDATA[5660 rue Hautbois, Saint-Léonard<br>:: Table à langer]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.582754,45.583663,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  
+    <Placemark>
+    <name>Pavillon Coubertin</name>
+    <description><![CDATA[4755 rue Valéry, Saint-Léonard<br>:: Table à langer]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.608904,45.583413,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  
+    <Placemark>
+    <name>Pavillon Delorme</name>
+    <description><![CDATA[6060 rue Honfleur, Saint-Léonard<br>:: Table à langer]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.590937,45.593287,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  
+    <Placemark>
+    <name>Pavillon Ferland</name>
+    <description><![CDATA[6020 boulevard Lavoisier, Saint-Léonard<br>:: Table à langer]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.600174,45.595759,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  
+    <Placemark>
+    <name>Pavillon Garibaldi</name>
+    <description><![CDATA[7125 rue Liénart, Saint-Léonard<br>:: Table à langer]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.569859,45.586249,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  
+    <Placemark>
+    <name>Pavillon Hébert</name>
+    <description><![CDATA[7505 boulevard Provencher, Saint-Léonard<br>:: Table à langer]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.592700,45.571893,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  
+    <Placemark>
+    <name>Pavillon Ladauversière</name>
+    <description><![CDATA[7560 boulevard Ladauversière, Saint-Léonard<br>:: Table à langer]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.574323,45.586115,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  
+    <Placemark>
+    <name>Pavillon Pie-XII</name>
+    <description><![CDATA[5200 boulevard Lavoisier, Saint-Léonard<br>:: Table à langer]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.610134,45.587622,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  
+    <Placemark>
+    <name>Pavillon Pirandello</name>
+    <description><![CDATA[4550 rue Compiègne, Saint-Léonard<br>:: Table à langer]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.604592,45.578717,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  
+    <Placemark>
+    <name>Piscine Ladauversière</name>
+    <description><![CDATA[7560 boulevars Ladauversière, Saint-Léonard<br>:: Table à langer]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.574323,45.586115,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  
+   <Placemark>
+    <name>Aréna Martin-Brodeur</name>
+    <description><![CDATA[<span style="font-weight:bold">Ouvert à partir de septembre 2014</span><br>5300, boulevard Robert, Saint-Léonard<br>:: Table à langer + Chaise haute + Fauteuil de boire et d'allaitement]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.601030,45.585916,0.000000</coordinates>
+    </Point>
+  </Placemark> 
+  
+  <Placemark>
+    <name>Aréna Roberto-Luongo</name>
+    <description><![CDATA[7755, rue Colbert, Saint-Léonard<br>:: Table à langer + fauteuil de boire et d'allaitement + chaise haute]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.596275,45.573559,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bibliothèque de Saint-Léonard</name>
+    <description><![CDATA[8420, boul. Lacordaire,<br><a href="http://ville.montreal.qc.ca/portal/page?_pageid=7157,73371822&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Saint-Léonard</a><br>:: Table à langer + fauteuil de boire et d'allaitement + chaise haute]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.597061,45.587334,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Complexe aquatique Saint-Léonard</name>
+    <description><![CDATA[5115, rue des Galets, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=7157,73371822&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Saint-Léonard</a><br>:: Table à langer + fauteuil de boire et d'allaitement + chaise haute]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.598518,45.584084,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Pavillon Wilfrid-Bastien</name>
+    <description><![CDATA[8181, boulevard Lacordaire, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=7157,73225574&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Saint-Léonard</a><br>:: Table à langer + fauteuil de boire et d'allaitement + chaise haute]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.591957,45.583824,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Auditorium de Verdun et aréna Denis-Savard</name>
+    <description><![CDATA[4110, boulevard Lasalle, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=2119,2649894&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Verdun</a><br>:: Table à langer]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.561760,45.462643,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bibliothèque - centre culturel de Verdun</name>
+    <description><![CDATA[5955, rue Bannantyne, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=2119,2649155&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Verdun</a><br>:: Table à langer]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.577011,45.448204,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bureau d&#39;arrondissement de Verdun</name>
+    <description><![CDATA[4555, rue de Verdun, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=2119,2649872&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Verdun</a><br>:: Table à langer + chaise haute]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.571739,45.458660,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Centre communautaire Elgar</name>
+    <description><![CDATA[260, rue Elgar, Île-des-Soeurs, Verdun<br>:: Chaise haute + table à langer]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.546707,45.456860,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Centre communautaire Marcel-Giroux</name>
+    <description><![CDATA[4501, rue Bannantyne, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=2119,2649872&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Verdun</a><br>:: Table à langer]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.576164,45.459328,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Chalet du Centre Willibrord</name>
+    <description><![CDATA[800, rue Willibrord, <a href="http://ville.montreal.qc.ca/portal/page?_dad=portal&amp;_pageid=2119,2649997&amp;_schema=PORTAL" target="_blank">Verdun</a><br>:: Table à langer]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.573616,45.459503,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Chalet du parc de l&#39;Esplanade de la Pointe-Nord</name>
+    <description><![CDATA[205, rue de la Rotonde, Île-des-Soeurs, Verdun<br>:: Table à langer<br><a href="https://maps.google.com/maps/place?ftid=0x4cc91aa09e2694f5:0x35892c32752f2ccf&amp;q=205+Rue+de+la+Rotonde,+Verdun,+QC,+Canada&amp;hl=fr&amp;authuser=0&amp;cd=1&amp;cad=src:ppiwlink&amp;ei=doj1T5jSA6upwQHQtbD9Bg&amp;sig2=-wZBxnCh_MNLlLSpY6ekRw&amp;dtab=5" target="_blank"><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=45.472147,-73.537921&amp;thumb=0"></a>]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.537918,45.472149,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>École Beurling Academy</name>
+    <description><![CDATA[6100, boulevard Champlain, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=2119,2649872&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Verdun</a><br>:: Table à langer]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.586380,45.448189,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Natatorium de Verdun</name>
+    <description><![CDATA[6500, boul. Lasalle, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=2119,2650013&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Verdun</a><br>:: Table à langer]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.576569,45.443775,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Pavillon des baigneurs du parc Arthur-Therrien</name>
+    <description><![CDATA[10, rue Hickson, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=2119,2650013&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Verdun</a><br>:: Table à langer]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.563042,45.464752,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Pavillon des baigneurs du parc de La Fontaine</name>
+    <description><![CDATA[550, place de la Fontaine, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=2119,2650013&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Verdun</a><br>:: Table à langer]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.544121,45.463150,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Aréna Camilien-Houde</name>
+    <description><![CDATA[1696, rue Montcalm, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=7317,78921590&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Ville-Marie</a><br>:: Table à langer]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.559601,45.519779,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Association sportive et communautaire du Centre-Sud</name>
+    <description><![CDATA[2093, rue de la Visitation, <a href="http://www.asccs.qc.ca/" target="_blank">Ville-Marie</a><br>:: Halte famille + table à langer + fauteuil de boire et d'allaitement + paravent + chaise haute]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.563248,45.522915,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Association sportive et communautaire du Centre-Sud  -  piscine</name>
+    <description><![CDATA[2093, rue de la Visitation, <a href="http://www.cjcm.ca/" target="_blank">Ville-Marie</a><br>:: Table à langer + fauteuil de boire et d'allaitement + paravent + chaise haute]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.563255,45.522903,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bibliothèque Père-Ambroise</name>
+    <description><![CDATA[2093, rue de la Visitation, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=7317,78863593&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Ville-Marie</a><br>:: :: Table à langer + fauteuil de boire et d'allaitement + chaise haute]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.563248,45.522915,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bureau Accès Ville-Marie</name>
+    <description><![CDATA[800, boul. de Maisonneuve Est, 17e étage <a href="http://ville.montreal.qc.ca/portal/page?_pageid=7317,84222189&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Ville-Marie</a><br>:: Table à langer ]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.560295,45.516132,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Centre Alexandre-de-Sève</name>
+    <description><![CDATA[2040, rue Alexandre-de-Sève,<br><a href="http://ville.montreal.qc.ca/portal/page?_pageid=7317,78921580&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Ville-Marie</a><br>:: Table à langer + fauteuil de boire et d'allaitement + support mural]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.561172,45.524662,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Centre Jean-Claude Malépart</name>
+    <description><![CDATA[2633, rue Ontario E, <a href="http://www.cjcm.ca/" target="_blank">Ville-Marie</a><br>:: Halte famille + table à langer + fauteuil de boire et d'allaitement + chaise haute + table et chaises]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.552032,45.533852,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Centre Jean-Claude-Malépart  -  piscine</name>
+    <description><![CDATA[2633, rue Ontario Est, <a href="http://www.cjcm.ca/" target="_blank">Ville-Marie</a><br>:: Table à langer]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.552017,45.533844,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Centre Sainte-Catherine-d&#39;Alexandrie</name>
+    <description><![CDATA[1700, rue Amherst, <a href="http://www.cclsca.qc.ca/" target="_blank">Ville-Marie</a><br>:: Table à langer]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.560463,45.518997,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Chalet du parc des Vétérans</name>
+    <description><![CDATA[1655, av. Papineau, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=7317,78985575&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Ville-Marie</a><br>:: Table à langer]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.555122,45.523888,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Cour municipale de la Ville de Montréal</name>
+    <description><![CDATA[775, rue Gosford, local 1.360,<br><a href="http://ville.montreal.qc.ca/portal/page?_pageid=5798,39687597&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Ville-Marie</a><br>:: Table à langer]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.553680,45.510517,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Hôtel de ville de Montréal - Bureau Accès Ville-Marie</name>
+    <description><![CDATA[275, rue Notre-Dame Est,<br>Rez-de-chaussée, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=7317,84222189&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Ville-Marie</a><br>:: Table à langer + fauteuil de boire et d'allaitement + chaise haute + table et chaises]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.554451,45.508949,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Maison de la culture et bibliothèque Frontenac</name>
+    <description><![CDATA[2550, rue Ontario Est, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=7317,78863593&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Ville-Marie</a><br>:: Table à langer + fauteuil de boire et d'allaitement]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.552612,45.533016,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Y Centre-Ville</name>
+    <description><![CDATA[4040, rue Stanley, <a href="http://www.ymcaquebec.org/fr/centre/survol/ymca-centre-ville/1/" target="_blank">Ville-Marie</a><br>:: Table à langer]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.580345,45.502499,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Aréna Howie-Morenz</name>
+    <description><![CDATA[<span style="font-weight:bold">Ouvert à partir de septembre 2014</span><br>8650, avenue Querbes, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=91,1983208&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Villeray-St-Michel-Parc-Extension</a><br>:: Table à langer + fauteuil de boire et d'allaitement + support mural]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.644241,45.534237,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Aréna Saint-Michel</name>
+    <description><![CDATA[3440, rue Jarry Est, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=91,1983208&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Villeray-St-Michel-Parc-Extension</a><br>:: Table à langer + fauteuil de boire et d'allaitement + support mural + fauteuil de boire et d'allaitement]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.607635,45.565575,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bibliothèque de Parc-Extension</name>
+    <description><![CDATA[421, rue Saint-Roch, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=91,1983175&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Villeray-St-Michel-Parc-Extension</a><br>:: Table à langer]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.628700,45.531063,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bibliothèque Le Prévost</name>
+    <description><![CDATA[7355, avenue Christophe-Colomb, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=91,1983113&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Villeray-St-Michel-Parc-Extension</a><br>:: Table à langer]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.614578,45.543888,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bibliothèque Saint-Michel</name>
+    <description><![CDATA[7601, rue François-Perrault, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=91,1983124&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Villeray-St-Michel-Parc-Extension</a><br>:: Table à langer + support mural + fauteuil de boire et d'allaitement]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.602005,45.562241,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Centre communautaire Saint-Mathieu</name>
+    <description><![CDATA[7110, 8e avenue, <a href="http://www.centrelajeunesse.org/" target="_blank">Villeray-St-Michel-Parc-Extension</a><br>:: Table à langer]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.598663,45.556248,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Centre de loisirs communautaires Lajeunesse</name>
+    <description><![CDATA[7378, rue Lajeunesse, <a href="http://www.centrelajeunesse.org/" target="_blank">Villeray-St-Michel-Parc-Extension</a><br>:: Table à langer + fauteuil de boire et d'allaitement&nbsp; + support mural]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.617622,45.540489,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Centre René-Goupil</name>
+    <description><![CDATA[4121, 42e rue, <a href="http://www.cecrg.org/html/lecentre.html" target="_blank">Villeray-St-Michel-Parc-Extension</a><br>:: Table à langer + support mural]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.618484,45.579201,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Centre sportif Jean-Rougeau</name>
+    <description><![CDATA[8000, rue De Normanville, V<a href="http://ville.montreal.qc.ca/portal/page?_pageid=91,94804027&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">illeray-St-Michel-Parc-Extension</a><br>:: Table à langer + fauteuil de boire et d'allaitement + support mural]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.621574,45.548462,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Complexe William-Hingston</name>
+    <description><![CDATA[419, rue Saint-Roch, <a href="http://www2.csdm.qc.ca/william-hingston/" target="_blank">Villeray-St-Michel-Parc-Extension</a><br>:: Fauteuil de boire et d'allaitement + support mural]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.628807,45.531071,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Le Patro Le Prévost</name>
+    <description><![CDATA[7355, avenue Christophe-Colomb, <a href="http://www.patroleprevost.qc.ca/" target="_blank">Villeray-St-Michel-Parc-Extension</a><br>:: Table à langer]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.614578,45.543888,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Mairie Villeray-Saint-Michel-Parc-Extension</name>
+    <description><![CDATA[405, avenue Ogilvy, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=91,1983020&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Villeray-St-Michel-Parc-Extension</a><br>:: Table à langer + fauteuil de boire et d'allaitement + support mural]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.624580,45.530876,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Pataugeoire Sainte-Yvette</name>
+    <description><![CDATA[8950, 10e avenue, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=91,1983236&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Villeray-St-Michel-Parc-Extension</a><br>:: Table à langer]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.625427,45.569855,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Piscine François-Perrault</name>
+    <description><![CDATA[7525, rue François-Perrault, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=91,1983236&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Villeray-St-Michel-Parc-Extension</a><br>:: Table à langer]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.600639,45.562378,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Piscine John-Fitzgerald-Kennedy</name>
+    <description><![CDATA[3030, rue Villeray, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=91,1983236&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Villeray-St-Michel-Parc-Extension</a><br>:: Table à langer + fauteuil de boire et d'allaitement + support mural]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.604385,45.559731,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Piscine Joseph-Charbonneau</name>
+    <description><![CDATA[8200, rue Rousselot, V<a href="http://ville.montreal.qc.ca/portal/page?_pageid=91,1983236&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">illeray-St-Michel-Parc-Extension</a><br>:: Fauteuil de boire et d'allaitement + support mural]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.622421,45.551346,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Piscine René-Goupil</name>
+    <description><![CDATA[4250, rue du parc René-Goupil, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=91,1983236&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Villeray-St-Michel-Parc-Extension</a><br>:: Table à langer + support mural]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.611275,45.578030,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Piscine Sainte-Lucie</name>
+    <description><![CDATA[9093, 16e avenue, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=91,1983236&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Villeray-St-Michel-Parc-Extension</a><br>:: Table à langer]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.625427,45.574699,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Piscine Saint-Roch</name>
+    <description><![CDATA[400, avenue Ball, <a href="http://ville.montreal.qc.ca/portal/page?_pageid=91,1983236&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">Villeray-St-Michel-Parc-Extension</a><br>:: Support mural]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.631012,45.532005,0.000000</coordinates>
+    </Point>
+  </Placemark>  
+  <Placemark>
+    <name>Mairie de LaSalle</name>
+    <description><![CDATA[55, avenue Dupras<br>LaSalle<br>:: : Table à langer + chaise haute]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.662443,45.427333,0.000000</coordinates>
+    </Point>
+  </Placemark> 
+  <Placemark>
+    <name>Aréna Jacques-Lemaire</name>
+    <description><![CDATA[8681, boul. Champlain,<br>LaSalle<br>:: Table à langer + support mural + table et chaises + stationnement]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.622199,45.41841,0.000000</coordinates>
+    </Point>
+  </Placemark> 
+  <Placemark>
+    <name>Centre sportif Dollard-St-Laurent</name>
+    <description><![CDATA[707, 75e Avenue,<br>LaSalle<br>:: Table à langer + support mural + table et chaises + stationnement]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.629388,45.422085,0.000000</coordinates>
+    </Point>
+  </Placemark>
+    <Placemark>
+    <name>Aquadôme</name>
+    <description><![CDATA[1411, rue Lapierre,<br>LaSalle<br>:: Table à langer + fauteuil de boire et d'allaitement + support mural + table et chaises + stationnement]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.607973,45.437174,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Centre culturel et communautaire Henri-Lemieux</name>
+    <description><![CDATA[7644, rue Édouard,<br>LaSalle<br>:: Fauteuil de boire et d'allaitement + stationnement]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.594326,45.431091,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bibliothèque L'Octogone</name>
+    <description><![CDATA[1080, avenue Dollard,<br>LaSalle<br>:: Table à langer + table et chaises + stationnement]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.622929,45.424796,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Centre d'histoire de Montréal</name>
+    <description><![CDATA[335, Place d'Youville,<br>Ville-Marie<br>:: Table à langer]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.555405,45.501865,0.000000</coordinates>
+    </Point>
+  </Placemark>  
+  <Placemark>
+    <name>CSSR - Centre sportif Saint-Raphaël</name>
+    <description><![CDATA[750, boul. Jacques Bizard,<br>L'Île-Bizard-Sainte-Geneviève<br>:: Fauteuil de boire et d'allaitement]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.877077,45.506106,0.000000</coordinates>
+    </Point>
+  </Placemark>  
+  <Placemark>
+    <name>Parc Goncourt</name>
+    <description><![CDATA[7130, avenue Goncourt,<br>Anjou<br>:: Table à langer + présentoir mural]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.556217,45.603335,0.000000</coordinates>
+    </Point>
+  </Placemark>  
+  <Placemark>
+    <name>Parc Sir-Wilfrid-Laurier (piscine et pataugeoire)</name>
+    <description><![CDATA[5200, rue Brébeuf, Plateau Mont-Royal<br>:: Table à langer + vestiaire familial]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.587588,45.532628,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Parc Baldwin (piscine et pataugeoire)</name>
+    <description><![CDATA[2330, rue Rachel Est, Plateau Mont-Royal<br>:: Table à langer + vestiaire familial]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.565143,45.535513,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Parc Lafontaine Ouest (pataugeoire)</name>
+    <description><![CDATA[1450, rue Rachel Est, Plateau Mont-Royal<br>:: Vestiaire familial]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.568682,45.529606,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Parc Lafontaine Est (pataugeoire)</name>
+    <description><![CDATA[1450, rue Rachel Est, Plateau Mont-Royal<br>:: Vestiaire familial]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.569306,45.52896,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Parc Jeanne-Mance (pataugeoire) (toilette femmes)</name>
+    <description><![CDATA[4167, ave De L'Esplanade, Plateau Mont-Royal<br>:: Table à langer]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.583425,45.516271,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Centre Culturel Calixa-Lavallée (sous-sol toilette femmes)</name>
+    <description><![CDATA[3819, ave Calixa-Lavallée, Plateau Mont-Royal<br>:: Table à langer]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.571315,45.527535,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Maison de la culture Pointe-aux-Trembles</name>
+    <description><![CDATA[14001, rue Notre-Dame est, Rivière-des-Prairies-Pointe-aux-Trembles<br>:: Table à langer + fauteuil de boire et d'allaitement + chaise haute + paravent]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.494549,45.66855,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Centre communautaire de l'est (HALTE-FAMILLE)</name>
+    <description><![CDATA[9665, boul. Gouin ouest, Pierrefonds-Roxboro<br>:: Halte-famille : table à langer, fauteuil de boire et d'allaitement + table et chaises, tabourets-escabeaux, présentoir mural, stationnement]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.786029,45.504903,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Espace Lafontaine</name>
+    <description><![CDATA[3933, avenue du Parc la Fontaine, Plateau Mont-Royal<br>:: Table à langer + chaise haute + fauteuil de boire et d'allaitement]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.570036,45.525457,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Centre culturel Pierrefonds</name>
+    <description><![CDATA[13850, boulevard Gouin Ouest, Pierrefonds-Roxboro<br>:: Table à langer + table et chaises, tabourets-escabeaux, présentoir mural, stationnement]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.849951,45.497263,0.000000</coordinates>
+    </Point>
+  </Placemark>  
+  <Placemark>
+    <name>Centre communautaire Marcel Morin</name>
+    <description><![CDATA[14068 boul Gouin ouest, Pierrefonds-Roxboro<br>:: Table à langer + table et chaises, présentoir mural, stationnement, paravent, tapis, stationnement]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.786029,45.504903,0.000000</coordinates>
+    </Point>
+  </Placemark>    
+  <Placemark>
+    <name>Piscine Valleycrest</name>
+    <description><![CDATA[4590, rue des Cageux, Pierrefonds-Roxboro<br>:: Table à  langer + fauteuil de boire et d'allaitement + table et chaises + vestitaire familial + stationnement]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.8804159,45.4576412,0.000000</coordinates>
+    </Point>
+  </Placemark>     
+  <Placemark>
+    <name>Bibliothèque de Pierrefonds</name>
+    <description><![CDATA[13 555, boul. de Pierrefonds, Pierrefonds-Roxboro<br>:: Table à langer + table et chaises + présentoir mural + tables d'activités + tapis + stationnement]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.847165,45.495187,0.000000</coordinates>
+    </Point>
+  </Placemark>   
+  <Placemark>
+    <name>Maison Beaudry</name>
+    <description><![CDATA[14678 Notre-Dame Est, Rivière-des-Prairies-Pointe-aux-Trembles<br>:: Table à langer + chaise haute + fauteuil de boire et d'allaitement + paravent]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.492544,45.677073,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bureau d'arrondissement</name>
+    <description><![CDATA[7380, boulevard Maurice-Duplessis, Rivière-des-Prairies-Pointe-aux-Trembles<br>:: Table à langer + fauteuil de boire et d'allaitement + tables et chaises + paravent]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.6016,45.624093,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bureau Accès Montréal Rivière-des-Prairies</name>
+    <description><![CDATA[3445, rue Robert-Chevalier, Rivière-des-Prairies-Pointe-aux-Trembles<br>:: Tables et chaises]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.511295,45.655954,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Vieux-Moulin de Pointe-aux-Trembles</name>
+    <description><![CDATA[11630, rue Notre-Dame Est, Rivière-des-Prairies-Pointe-aux-Trembles<br>:: Table à langer]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.492843,45.634844,0.000000</coordinates>
+    </Point>
+  </Placemark> 
+  <Placemark>
+    <name>Section piscine Ste-Geneviève</name>
+    <description><![CDATA[15734, rue de la Caserne, L'Île-Bizard-Sainte-Geneviève<br>:: Table à langer + sièges de bébé pour la douche-piscine + stationnement]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.867496,45.481193,0.000000</coordinates>
+    </Point>
+  </Placemark>  
+  <Placemark>
+    <name>Pavillon - Maison Nivard de Saint-Didier</name>
+    <description><![CDATA[7244, boulevard LaSalle, Verdun<br>:: Table à langer]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.583064,45.437492,0.000000</coordinates>
+    </Point>
+  </Placemark>    
+  <Placemark>
+    <name>Chalet du parc Toussaint-Louverture (ouvert été seulement)</name>
+    <description><![CDATA[Boulevard De Maisonneuve Est, entre les rues Sanguinet et Saint-Dominique, Verdun<br>:: Table à langer]]></description>
+    <styleUrl>#bat_certifies_qual_famille</styleUrl>
+    <Point>
+      <coordinates>-73.564556,45.512276,0.000000</coordinates>
+    </Point>
+  </Placemark>   
+</Document>
+</kml>
