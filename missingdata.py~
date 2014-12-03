@@ -129,7 +129,7 @@ def getMeanError(pred, Y):
 	return np.sqrt(MSE/float(len(pred)))
 	
 if __name__=='__main__':
-	data = loadData("data/data/final_dataDec.csv")
+	data = loadData("final_data_27.csv")
 
 	# CHOOSE HOW TO HANDLE MISSING DATA 
 	#nData = dataDeletion(data)

@@ -198,7 +198,7 @@ def output_final_csv():
 			continue
 		out[-1] = out[-1].replace(".00", "")
 
-		if (int(out[-1]) < 750000 and int(out[-1]) != 0) and add == True:
+		if (int(out[-1]) < 600000 and int(out[-1]) != 0) and add == True:
 			out_file.write(','.join(out) + '\n')
 		
 	print "INVALID: ", bad

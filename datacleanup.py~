@@ -44,7 +44,7 @@ def removeInvalidGPS():
 			np.delete(data, i, 0)
 			count += 1
 	header = "not_sold,2014,2013,2012,2011,2010,2009,2008,2007,2006,2005,2004,2003,2002,num_bed,year_built,longitude,latitude,num_room,num_bath,living_area,house,commercial,plex,bungalow,chalet,loft,hotel,restauration,condo,num_parking,accessible_buildings,family_quality,art_expos,emergency_shelters,emergency_water,Facilities,fire_stations,Cultural,Monuments,police_stations,Vacant,Free_Parking,askprice"
-	saveData(data, "data/data/final_dataDec.csv", ',', header)
+	saveData(data, "data/data/final_dataDec.csv", ',')
 	
 if __name__=='__main__':
 	data = loadData("Dec1Data.csv")
