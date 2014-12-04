@@ -10,6 +10,8 @@
 \usepackage{tikz}
 \usetikzlibrary{positioning}
 \usepackage{wasysym}
+\usepackage{mathtools}
+\DeclarePairedDelimiter{\abs}{\lvert}{\rvert}
 
 
 \begin{document}
@@ -77,11 +79,28 @@ Michael Noseworthy \\
 	Features consisted of two broad categories, property descriptors and integer counts of the number of instances of municipal infrastructure within walking distance from the datapoint. Many of the features were inherently numerical so they remained untouched. Categorical data such as the property type (house, condo etc...) or the year it was sold (2002-unsold) could have been encoded using integer codes. Research has shown however that one-hot encoding yields better results. [4] These two characteristics hence exploded into a set of binary features.
 	
 \subsection{Algorithm Selection}
-	Below is a brief description of the algorithms considered.
+	Below is a brief description of the algorithms considered. They were chosen from a wider set of algorithms because during initial smoke testing they had the best results and showed promise.
 	
 \subsubsection{Linear Regression}
+	Linear Regression is a simple and classic method that fits a line/plane through the data in the space of features. It's hypothesis for a feature space with m features is of the form, \\
+	\[  f_{w}(x) = w_{0}  + \sum_{j=1:m}w_{j}x_{j} \] \\
+
+	The w's are the weights that need to be solved for. Different approaches exist for picking these weights optimally. The scikit-learn implementation uses least-squares which seeks to choose a weight vector to minimize,
+	\[ Err(w)  = \sum_{i=1:n}(y_{i} - w^{T}x_{i})^{2}\] \\
+	
+	A closed form solution does exist but the remaining details, while interesting, are not pertinent.
+	
 \subsubsection{Lasso Regression}
+	Lasso Regression is similar in nature to Linear Regression but makes a number of improvements. It is a form of \emph{regularization} which aims to impose constraints on a solution to prevent overfitting. In Lasso Regression, the weights are constrained by penalizing by their absolute value. This forces less important features to have weights of 0 and implicitly weeds out useless features in the process. Because the real estate domain is a bit foreign to us, we simply included features we felt might have influence on property price. This algorithm will help trim them down to a relevant subset.
+	
+	It solves for a weight vector s.t. \\
+	\[ w^{lasso} = argmin_{w}(\sum_{i=1:n}(y_{i} - w_{0} - \sum_{j=1:m}x_{ij}w_{j})^{2} + \lambda\sum_{j=1:m}\abs{w_{j}}) \]
+	
+	
 \subsubsection{K Nearest Neighbours}
+	K nearest neighbours take a different approach. The core assumption made with this method is that examples with similar feature values should have similar outputs. Neighbours of a queried datapoint should be used to determine it's value and not points that are far away. In a regression task, once the neighbours have been located, the mean of their values (or a weighted average) is taken to assign to the queried point.
+	
+	The scikit-learn implementation takes a basic average of the neighbouring data to predict new values. This method is very intuitive but performance really can depend on the nature of the dataset involved. In our case it seems like a very good option because homes tend to be priced similarly to homes in the same (literal) neighbourhood. Beyond the fact that the algorithms name seems apt, it should be able to capture this assumption regarding real estate as literal neighbours will have similar construction dates, sizes and proximity to infrastructure.
 
 \subsection{Implementation Details}
 	Raw data had to be scraped from real estate websites. To do so we used the popular Scrapy framework available for python [6]. A spider was written for each website and data from which was loaded through a script into a cohesive raw dataset. This raw data was then cleansed by removing outliers and bad data and extended using the Montreal datasets as discussed previously. All scripts for collecting and pre-processing of data is available in the code base (though Scrapy will need to be installed in order to scrape raw data).
