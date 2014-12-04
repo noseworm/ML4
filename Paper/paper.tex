@@ -58,7 +58,7 @@ Michael Noseworthy \\
 
 \subsection{Data}
 
-	The real estate market, unlike other traditional markets, does not have a centralized trading "floor" or venue. Parties have the option to deal with an agent or sell the house on their own. As a result price information on available properties isn't centralized. All of the housing data had to be retrieved from brokerage web sites. DuProprio and Royal Lepage web sites were used to get the data needed. They did not offer convenient API's so the sites had to be scrapped for the necessary data. While this provided all the standard descriptors of properties, datasets released by the city of Montreal were needed to locate police stations, family-friendly buildings, handicap friendly buildings as well as numerous other notable infrastructure. These can be individually found within our code base. Coordinate information for both properties and these entities were used to count instances within a walking radius.
+	The real estate market, unlike other traditional markets, does not have a centralized trading "floor" or venue. Parties have the option to deal with an agent or sell the house on their own. As a result price information on available properties isn't centralized. All of the housing data had to be retrieved from brokerage web sites. DuProprio and Royal Lepage web sites were used to get the data needed. They did not offer convenient API's so the sites had to be scrapped for the necessary data. While this provided all the standard descriptors of properties, datasets released by the city of Montreal were needed to locate police stations, family-friendly buildings, handicap friendly buildings as well as numerous other notable infrastructure. The complete list may be found in the Appendix. Coordinate information for both properties and these entities were used to count instances within a walking radius.
 	
 	In all 9717 data points were collected. Data points with abnormally high prices (defined in our case as >750000) were removed as they were outliers. As alluded to, the main features were property descriptors (eg. type of property, living area, neighbourhood, latitude, longtitude, number of bathrooms, number of bedrooms etc...) and counts of local municipal infrastructure (eg. fire stations, police stations, monuments, emergency shelters, family quality buildings...). There were 38 features in all and the full list can be found with our code base.
 	
@@ -177,5 +177,35 @@ Michael Noseworthy \\
  	Scikit Learn Web. <http://scikit-learn.org/stable/>
 
 \end{thebibliography}
+
+\section{Appendix}
+\subsection{Feature Index Mapping}
+Used to interpret Figure \ref{fig:feats} \\
+
+\begin{tabular}{ l | r }
+  0 & Not Sold \\
+  1-13 & Year Sold \\
+  14 & Number of beds \\
+  15 & Year Built\\
+  16 & Longitude\\
+  17 & Latitude\\
+  18 & Number of rooms\\
+  19 & Number of bathrooms\\
+  20 & Living Area (mxm)\\
+  21-25 & Property Type (house, plex, chalet, loft, condo)\\
+  26 & Number Parking Spots\\
+  27 & Number of Accessible building in area\\
+  28 & Number of Family quality buildings\\
+  29 & Number of art expositions\\
+  30 & Number of emergency shelters\\
+  31 & Number of emergency water locations\\
+  32 & Number of Facilities\\
+  33 & Number of Fire Stations\\
+  34 & Number of Cultural Buildings\\
+  35 & Number of Monuments\\
+  36 & Number of Police Stations\\
+  37 & ?\\
+  38 & Number of Free Parking Spots\\
+\end{tabular}
 
 \end{document}
