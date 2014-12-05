@@ -53,7 +53,7 @@ Michael Noseworthy \\
 	
 	This project aims to model Montreal housing prices based on a specific set of features in order to determine their importance in marketing a home. As there are all sorts of real estate available on the market, we focused on homes and condos. As alluded to above, we wanted to explore the role that municipal infrastructure has on the prices of homes, something that hasn't been explored in much depth. It is hence a regression task to determine the price of a property.
 	
-	Our data samples consist of standard descriptions of each property as well as the number of various municipal establishments within 3 kilometers of the property. This radius was chosen because it represents what we feel is a comfortable walking distance whether it is within the heart of the city or in a suburb. The learning algorithms used include traditional Linear Regression, Lasso Regression and K-nearest neighbours (which seemed appropriate!). 
+	Our data samples consist of standard descriptions of each property as well as the number of various municipal establishments within 3 kilometres of the property. This radius was chosen because it represents what we feel is a comfortable walking distance whether it is within the heart of the city or in a suburb. The learning algorithms used include traditional Linear Regression, Lasso Regression and K-nearest neighbours (which seemed appropriate!). 
 
 \subsection{Data}
 
@@ -127,7 +127,7 @@ Michael Noseworthy \\
 	 The results were generally a bit disappointing when compared to the benchmark paper referenced in the Introduction [1]. Analysis however offers many plausible reasons for this as well as interesting insights. 
 	 
 \subsection{Linear Regression}
-	Figure \ref{fig:linreg} compares the performance of Linear Regression over the three datasets representing approaches to handling missing data. Best performance was with the malformed data removed and yielded a MSE of \$44,680 as seen in table \ref{fig:linregres}.
+	Figure \ref{fig:linreg} compares the performance of Linear Regression over the three datasets representing approaches to handling missing data. Best performance was with the malformed data removed and yielded a mean absolute error of \$44,680 as seen in table \ref{fig:linregres}.
 
 	 \begin{figure}[!htbp]
    		\centering
@@ -154,7 +154,7 @@ Michael Noseworthy \\
     \end{table}
 \end{center}
 \subsection{Lasso Regression}
-	For lasso regression, along with testing each missing data method, we also optimized the regularization hyperparameter, $\lambda$. However, performance seemed to be only marginally affected. Figure \ref{fig:lassoreg} shows once again that removing the missing data was most fruitful. Best MSE was approximately \$44,315 using a$ \lambda$ value of 100.
+	For lasso regression, along with testing each missing data method, we also optimized the regularization hyperparameter, $\lambda$. However, performance seemed to be only marginally affected. Figure \ref{fig:lassoreg} shows once again that removing the missing data was most fruitful. Best mean absolute error was approximately \$44,315 using a$ \lambda$ value of 100.
 	
 	 \begin{figure}[!htbp]
    		\centering
@@ -286,15 +286,30 @@ Expectation Maximization & 50 &67519\\
 	The list full list of features is included in the Appendix. Generally speaking however the features in the middle are the core descriptions including living area, year built, latitude and longitude. To the right are the features constructed from the city data. The features to the left are a one hot encoding of the year the property sale was completed.
 
 \section{Discussion}
+
+\subsection{Analysis}
+	The results generally were not as great as was expected. The paper referenced in the introduction \cite{bostonres} gave us hope that we may be able to achieve similar results. Using a distinctly different feature set however may be the main reason why the mean absolute error obtained in our experimentation was not even comparable. A number of insights were gained from all this experimentation. The first is regarding the algorithms chosen. At the start, smoke testing convinced us that all three algorithms were contenders. Ultimately they were all very close in performance, albeit relatively poor for this domain. 
 	
-\section{Conclusion}
+	Regarding the Linear algorithms (Linear Regression and Lasso Regression), their poorer performance could be attributed to the non-linearity of the problem space. The housing market is incredibly complex as is evidence by the fact that no one quite understands it very well. The feature sets curated and experimented with did not seem to encapsulate the necessary information needed to predict the correct prices. The nearest neighbours shortcomings made have been in the density of the data. The majority of the data came from taking a snapshot of the Montreal real estate market on a couple of brokerage sites. Intuitively similar homes that are close to each other (literally) should be priced similarly but the fact that neighbourhoods simply don't go up for sale all at once meant leveraging the proximity of data points in the feature space not positive.
+	
+	A second aspect of our experimentation was in the way we handled missing data. As the root raw data was scraped off of sites, there were many holes. Of the three methods for handling such cases, surprisingly the best one was to simply remove them from the dataset. This drastically reduced the dataset to about the third of the size. One of the hypotheses we came up with was that properties with complete data generally came from certain types of properties (eg. location). There was less noise and as a result a model could be fit with greater ease. 
+	
+	The last main goal was to determine whether the data from the city, locations of municipal infrastructure, would influence prices in any way. As can be seen in Figure \ref{fig:feats}, they were not very influential. It is somewhat reassuring to see living area or year of construction get more importance because that is in line with our expectation. Generally there is understandably a lot of variability in the prices of comparable homes (according to our feature set). This is evidently because our feature set does not encapsulate the idea and characteristics of properties to a sufficient degree. Homes are renovated (which adds value), left to ruin, made with specific materials, lie in different zoning areas etc... It would be interesting to see how our experimental results differ if given access to some of these other characteristics. 
+	
+\subsection{Contribution, Limitations \& Future Work}
+	As alluded to above, we hypothesize that given more information about homes and properties in the city of montreal, our approach would be more fruitful. We are confident that analysis of the composition of the local neighbourhood (walking distance) as well as the core descriptors of a home would be sufficient in modelling the real estate market for residential use. The current data provided by the city of Montreal was not influential enough to construct such a model but as has been shown \ref{bostonres}, it is not out of the question that socially sensitive data (crime rates) and others (building material) would play a bigger role then the location of police and fire departments.
+	
+	We have been able to show that interpolating observations to fill in missing data is not always appropriate in this setting as there is so much variability in properties, despite the fact that observable characteristics (location) are similar. Future work would definitely involve rigorously collecting more complete data regarding properties around the island as well as collecting and using more municipal data to truly determine what is important for buyers when purchasing a home.
+	
+	There is a need to have a more centralized database or resource for real estate in the city (or any city). Building materials, crime rates, locations of public buildings and other crucial information should be collected and made available to the public to inform potential buyers as well as level the real estate market playing field. Such knowledge can be extremely beneficial to the average resident so that they can make informed decisions on either side of a transaction. We haven't consulted any real estate brokers however to confirm if they would benefit from this open data model however...
+
 \begin{thebibliography}{9}
 
 \bibitem{bostonres}
   Jingyi Mu, Fang Wu, and Aihua Zhang, �Housing Value Forecasting Based on Machine Learning Methods,� Abstract and Applied Analysis, vol. 2014, Article ID 648047, 7 pages, 2014. doi:10.1155/2014/648047
   
 \bibitem{data}
-	Portail Donnees Ouvertes. City of Montreal, n.d. Web. <http//2Fdonnees.ville.montreal.qc.ca>.
+	Portail Donnees Ouvertes. City of Montreal, n.d. Web. <http//donnees.ville.montreal.qc.ca>.
 	
 \bibitem{scrapy}
 	Scrapy n.d. Web. <http://scrapy.org/>.
@@ -330,7 +345,7 @@ Used to interpret Figure \ref{fig:feats} \\
   34 & Number of Cultural Buildings\\
   35 & Number of Monuments\\
   36 & Number of Police Stations\\
-  37 & ?\\
+  37 & Number of Vacant buildings \\
   38 & Number of Free Parking Spots\\
 \end{tabular}
 
