@@ -10,7 +10,7 @@ In order to re-collect raw data you need to have the framework scrapy installed 
 Clean Data + Merge with Open Data
 ===
 
-Once collected, run the script "datacleanup.py" (change lines 50,61 as appropriate) in the root directory and after placing the outputed file in /data/data run "add_open_data.py". The final outputed dataset is the one to be fed to the algorithms!
+Once collected, run the script "datacleanup.py" (change lines 50,61 as appropriate) in the root directory and after placing the outputed file in /data/data run "add_open_data.py" (change line 270 as appropriate). The final outputed dataset is the one to be fed to the algorithms!
 
 
 Experimentation
