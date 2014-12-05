@@ -10,6 +10,10 @@
 \usepackage{tikz}
 \usetikzlibrary{positioning}
 \usepackage{wasysym}
+\usepackage{mathtools}
+\DeclarePairedDelimiter{\abs}{\lvert}{\rvert}
+\setlength{\parindent}{1cm}
+\usepackage{indentfirst}
 
 
 \begin{document}
@@ -33,6 +37,7 @@ Michael Noseworthy \\
 
 \maketitle
 \begin{abstract}
+	One of the most important stages most people go through at one point in their lives involves buying or selling a home.  Real estate is the largest asset the average person will ever own and many times functions as not only a shelter but also an investment. The more information parties on either side of the transaction can obtain, the better their decision will be and the chances of losing large sums of money will decrease. While many models have been applied to this market over the years, not many have investigated the role municipal data about infrastructure has on pricing these homes. Through the use of data available through the city of Montreal and a snapshot of the real estate market on the island through select agencies, we look to investigate the impact leveraging municipal data can have on pricing and compare the performance of Linear Regression, Lasso Regression and K nearest neighbours in this setting. Results show that much of the city data played little in the output of the learners used and that poorer performance by the algorithms suggests the truly non-linearity of the problem space.
 
 \end{abstract}
 
@@ -40,10 +45,9 @@ Michael Noseworthy \\
 
 	The real estate market is one of the most important markets in the modern economy because of the nature of the goods exchanged. Shelter is a fundamental need for humans and therefore there is a collective interest in pricing homes correctly. While there are other factors in play, an ill-informed party on either side of the transaction can be burned for non-trivial sums. Any insight into pricing homes properly and consistently would be of great interest to all parties involved. 
 	
-	There have been a number of attempts to model real estate prices using Machine Learning approaches. One of the efforts that was of interest involved pricing Boston suburban homes. [1] The results from this study were very impressive and influenced our choice of features for our data. In this paper, they explored the use of a Linear SVM regression and a partial least squares regression. The former yielded a means-squared error (MSE) of \$10,000 while the latter had a MSE of \$25,000. The interesting point however from their paper is their feature set which included distance to radial highways, density of non-retail businesses in the area as well as local crime rate. These results assured us that decent results have been achieved with the above model of real estate in a comparable city and serve as a benchmark for the results that follow. 
+	There have been a number of attempts to model real estate prices using Machine Learning approaches. One of the efforts that was on interest involved pricing Boston suburban homes \cite{bostonres}. The results from this study were very impressive and influenced our choice of features for our data. In this paper, they explored the use of a Linear SVM regression and a partial least squares regression. The former yielded a means-squared error (MSE) of \$10,000 while the latter had a MSE of \$25,000. The interesting point however from their paper is their feature set which included distance to radial highways, density of non-retail businesses in the area as well as local crime rate. These results assured us that decent results have been achieved with the above model of real estate in a comparable city and serve as a benchmark for the results that follow. 
 	
-	The goal of this project was to attempt to model Montreal homes in its various boroughs while using open-data from the city of Montreal. [2] Not wanting to simply repeat results that have been obtained before, and ultimately constrained by the data sets at our disposal, we opted to explore the use of different characteristics in describing and modelling homes in the city. We hope to investigate the role of other municipal infrastructure in determining the value of homes and in doing so, convince policy makers that the collection, aggregation and dissemination of municipal/city data can be beneficial to its residents.
-
+	The goal of this project was to attempt to model Montreal homes in it's various boroughs while using open-data from the city of Montreal \cite{data}. Not wanting to simply repeat results that have been obtained before, and ultimately constrained by the data sets at our disposal, we opted to explore the use of different characteristics in describing and modelling homes in the city. We hope to investigate the role of other municipal infrastructure in determining the value of homes and in doing so, convince policy makers that the collection, aggregation and dissemination of municipal/city data can be beneficial to it's residents.
 
 \section{Problem Definition and Description of data}
 	
@@ -53,9 +57,9 @@ Michael Noseworthy \\
 
 \subsection{Data}
 
-	The real estate market, unlike other traditional markets, does not have a centralized trading "floor" or venue. Parties have the option to deal with an agent or sell the house on their own. As a result price information on available properties isn't centralized. All of the housing data had to be retrieved from brokerage web sites. DuProprio and Royal Lepage web sites were used to get the data needed. They did not offer convenient API's so the sites had to be scraped for the necessary data. While this provided all the standard descriptors of properties, datasets released by the city of Montreal were needed to locate police stations, family-friendly buildings, handicap friendly buildings as well as numerous other notable infrastructure. Coordinate information for both properties and these entities were used to count instances within a walking radius.
+	The real estate market, unlike other traditional markets, does not have a centralized trading "floor" or venue. Parties have the option to deal with an agent or sell the house on their own. As a result price information on available properties isn't centralized. All of the housing data had to be retrieved from brokerage web sites. DuProprio and Royal Lepage web sites were used to get the data needed. They did not offer convenient API's so the sites had to be scrapped for the necessary data. While this provided all the standard descriptors of properties, datasets released by the city of Montreal were needed to locate police stations, family-friendly buildings, handicap friendly buildings as well as numerous other notable infrastructure. The complete list may be found in the Appendix. Coordinate information for both properties and these entities were used to count instances within a walking radius.
 	
-	In all, 9717 data points were collected. Data points with abnormally high prices (defined in our case as >\$750000) were removed as there were very few training example in this regime which could adversely affect our ability to generalize. As alluded to, the main features were property descriptors (eg. type of property, living area, neighbourhood, latitude, longtitude, number of bathrooms, number of bedrooms) and counts of local municipal infrastructure (eg. fire stations, police stations, monuments, emergency shelters, family quality buildings...). There were [COUNT] features in all and the full list can be found with our code base.
+	In all 9717 data points were collected. Data points with abnormally high prices (defined in our case as >750000) were removed as they were outliers. As alluded to, the main features were property descriptors (eg. type of property, living area, neighbourhood, latitude, longtitude, number of bathrooms, number of bedrooms etc...) and counts of local municipal infrastructure (eg. fire stations, police stations, monuments, emergency shelters, family quality buildings...). There were 38 features in all and the full list can be found with our code base.
 	
 \subsection{Missing Data}
 
@@ -86,17 +90,36 @@ Michael Noseworthy \\
 	
 	Features consisted of two broad categories, property descriptors and integer counts of the number of instances of municipal infrastructure within walking distance from the datapoint. Many of the features were inherently numerical so they remained untouched. Categorical data such as the property type (house, condo etc...) or the year it was sold (2002-unsold) could have been encoded using integer codes. Research has shown however that one-hot encoding yields better results. [4] These two characteristics hence exploded into a set of binary features.
 	
+	Feature selection was implicitly done within the Linear Regression and Lasso Regression algorithms. This allowed for non-influential features to be weeded out from the pricing model developed.
+	
 \subsection{Algorithm Selection}
-	Below is a brief description of the algorithms considered.
+	Below is a brief description of the algorithms considered. They were chosen from a wider set of algorithms because during initial smoke testing they had the best results and showed promise.
 	
 \subsubsection{Linear Regression}
+	Linear Regression is a simple and classic method that fits a line/plane through the data in the space of features. It's hypothesis for a feature space with m features is of the form, \\
+	\[  f_{w}(x) = w_{0}  + \sum_{j=1:m}w_{j}x_{j} \] \\
+
+	The w's are the weights that need to be solved for. Different approaches exist for picking these weights optimally. The scikit-learn implementation uses least-squares which seeks to choose a weight vector to minimize,
+	\[ Err(w)  = \sum_{i=1:n}(y_{i} - w^{T}x_{i})^{2}\] \\
+	
+	A closed form solution does exist but the remaining details, while interesting, are not pertinent.
+	
 \subsubsection{Lasso Regression}
+	Lasso Regression is similar in nature to Linear Regression but makes a number of improvements. It is a form of \emph{regularization} which aims to impose constraints on a solution to prevent overfitting. In Lasso Regression, the weights are constrained by penalizing by their absolute value. This forces less important features to have weights of 0 and implicitly weeds out useless features in the process. Because the real estate domain is a bit foreign to us, we simply included features we felt might have influence on property price. This algorithm will help trim them down to a relevant subset.
+	
+	It solves for a weight vector s.t. \\
+	\[ w^{lasso} = argmin_{w}(\sum_{i=1:n}(y_{i} - w_{0} - \sum_{j=1:m}x_{ij}w_{j})^{2} + \lambda\sum_{j=1:m}\abs{w_{j}}) \]
+	
+	
 \subsubsection{K Nearest Neighbours}
+	K nearest neighbours take a different approach. The core assumption made with this method is that examples with similar feature values should have similar outputs. Neighbours of a queried datapoint should be used to determine it's value and not points that are far away. In a regression task, once the neighbours have been located, the mean of their values (or a weighted average) is taken to assign to the queried point.
+	
+	The scikit-learn implementation takes a basic average of the neighbouring data to predict new values. This method is very intuitive but performance really can depend on the nature of the dataset involved. In our case it seems like a very good option because homes tend to be priced similarly to homes in the same (literal) neighbourhood. Beyond the fact that the algorithms name seems apt, it should be able to capture this assumption regarding real estate as literal neighbours will have similar construction dates, sizes and proximity to infrastructure.
 
 \subsection{Implementation Details}
-	Raw data had to be scraped from real estate websites. To do so we used the popular Scrapy framework available for python [6]. A spider was written for each website and data from which was loaded through a script into a cohesive raw dataset. This raw data was then cleansed by removing outliers and bad data and extended using the Montreal datasets as discussed previously. All scripts for collecting and pre-processing of data is available in the code base (though Scrapy will need to be installed in order to scrape raw data).
+	Raw data had to be scraped from real estate websites. To do so we used the popular Scrapy framework available for python \cite{scrapy}. A spider was written for each website and data from which was loaded through a script into a cohesive raw dataset. This raw data was then cleansed by removing outliers and bad data and extended using the Montreal datasets as discussed previously. All scripts for collecting and pre-processing of data is available in the code base (though Scrapy will need to be installed in order to scrape raw data).
 	
-	All the algorithms used were implemented in the scikit-learn library. [5] It provides efficient implementations of many useful algorithms and procedures and therefore we wanted to take advantage of the fact that it is available for use. Beyond the implementations of the regression algorithms, it was also used to set up our K sets for our K-Fold cross-validation procedure. 
+	All the algorithms used were implemented in the scikit-learn library \cite{scikit}. It provides efficient implementations of many useful algorithms and procedures and therefore we wanted to take advantage of the fact that it is available for use. Beyond the implementations of the regression algorithms, it was also used to set up our K sets for our K-Fold cross-validation procedure. 
 
 \subsection{Training/Testing}
 
@@ -105,9 +128,9 @@ Michael Noseworthy \\
 	 The results were generally a bit disappointing when compared to the benchmark paper referenced in the Introduction [1]. Analysis however offers many plausible reasons for this as well as interesting insights. 
 	 
 \subsection{Linear Regression}
-	Below compares the performance of Linear Regression over the three datasets representing approaches to handling missing data. Best performance was with the malformed data removed and yielded a MSE of about \$45,000.
+	Figure \ref{fig:linreg} compares the performance of Linear Regression over the three datasets representing approaches to handling missing data. Best performance was with the malformed data removed and yielded a MSE of about \$45,000.
 	 
-	 \begin{figure}[H]
+	 \begin{figure}[!htbp]
    		\centering
   		\includegraphics[width=\linewidth]{linear_regression_tuning.png}
     		\caption{Performance of Linear Regression algorithm}
@@ -115,9 +138,9 @@ Michael Noseworthy \\
 	\end{figure}
 	
 \subsection{Lasso Regression}
-	Lasso's lambda parameter was optimized but performance seemed to be only marginally affected. Figure 3 shows once again that removing the missing data was most fruitful. Best MSE was approximately \$44,000.
+	Lasso's lambda parameter was optimized but performance seemed to be only marginally affected. Figure \ref{fig:lassoreg} shows once again that removing the missing data was most fruitful. Best MSE was approximately \$44,000.
 	
-	 \begin{figure}[H]
+	 \begin{figure}[!htbp]
    		\centering
   		\includegraphics[width=\linewidth]{lasso_tuning_plot.png}
     		\caption{Performance of Lasso Regression algorithm}
@@ -125,16 +148,73 @@ Michael Noseworthy \\
 	\end{figure}
 	
 \subsection{K Nearest Neighbours}
-	The optimal K was [INSERT], as shown below. Once again simply removing the bad data yielded the best results. 
+	The optimal K was [INSERT], as shown in Figure \ref{fig:knn}. Once again simply removing the bad data yielded the best results. 
 	
-	\begin{figure}[H]
+	\begin{figure}[!htbp]
    		\centering
   		\includegraphics[width=\linewidth]{knn_tuning.png}
     		\caption{Performance of K-Nearest Neighbours as a function of K}
     		\label{fig:knn}
 	\end{figure}
 
+\subsection{Feature Selection}
+	A major driving force of this project was to determine whether the data provided by the city of Montreal was useful in pricing homes across the island. Would the location of certain infrastructure help in the prediction of the worth of a particular property? Two of the algorithms tested above implicitly ranks the features by assigning weights to each feature dimension. The higher the magnitude of the weight, the more important it is in determining price. Figure \ref{fig:feats} shows how Linear Regression and Lasso Regression treated each of the 38 features. 
+	
+	 \begin{figure*}[!htbp]
+   		\centering
+  		\includegraphics[width=\textwidth]{parameter_values.png}
+    		\caption{Parameter/Weight values for each feature for Linear and Lasso Regression.}
+    		\label{fig:feats}
+	\end{figure*}
+	
+	The list full list of features is included in the Appendix. Generally speaking however the features in the middle are the core descriptions including living area, year built, latitude and longitude. To the right are the features constructed from the city data. The features to the left are a one hot encoding of the year the property sale was completed.
 
 \section{Discussion}
+
+\begin{thebibliography}{9}
+
+\bibitem{bostonres}
+  Jingyi Mu, Fang Wu, and Aihua Zhang, �Housing Value Forecasting Based on Machine Learning Methods,� Abstract and Applied Analysis, vol. 2014, Article ID 648047, 7 pages, 2014. doi:10.1155/2014/648047
+  
+\bibitem{data}
+	Portail Donnees Ouvertes. City of Montreal, n.d. Web. <http//2Fdonnees.ville.montreal.qc.ca>.
+	
+\bibitem{scrapy}
+	Scrapy n.d. Web. <http://scrapy.org/>.
+	
+\bibitem{scikit}
+ 	Scikit Learn Web. <http://scikit-learn.org/stable/>
+
+\end{thebibliography}
+
+\section{Appendix}
+\subsection{Feature Index Mapping}
+Used to interpret Figure \ref{fig:feats} \\
+
+\begin{tabular}{ l | r }
+  0 & Not Sold \\
+  1-13 & Year Sold \\
+  14 & Number of beds \\
+  15 & Year Built\\
+  16 & Longitude\\
+  17 & Latitude\\
+  18 & Number of rooms\\
+  19 & Number of bathrooms\\
+  20 & Living Area (mxm)\\
+  21-25 & Property Type (house, plex, chalet, loft, condo)\\
+  26 & Number Parking Spots\\
+  27 & Number of Accessible building in area\\
+  28 & Number of Family quality buildings\\
+  29 & Number of art expositions\\
+  30 & Number of emergency shelters\\
+  31 & Number of emergency water locations\\
+  32 & Number of Facilities\\
+  33 & Number of Fire Stations\\
+  34 & Number of Cultural Buildings\\
+  35 & Number of Monuments\\
+  36 & Number of Police Stations\\
+  37 & ?\\
+  38 & Number of Free Parking Spots\\
+\end{tabular}
 
 \end{document}
